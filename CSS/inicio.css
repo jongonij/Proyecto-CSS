@@ -10,7 +10,6 @@
     background-image:url(../imgs/fondo_actividades.jpg);
     background-color: rgba(0, 0, 0, 0.5);
   
-   
     
 }
 
@@ -69,4 +68,14 @@
 }
 
 
-   
+.piePagina p{
+    position: relative;
+    float:right;
+ 
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
