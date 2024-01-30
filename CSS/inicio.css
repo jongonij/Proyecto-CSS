@@ -1,14 +1,15 @@
 /* Color fondo pagina */
 
 body{
-    background-color: rgb(163, 249, 255);
+    background-color: lightblue;
 }
 
 /* Formato texto */
 .gridrrelleno{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto ;
     grid-row: auto auto auto;
+    gap: 10px 10px;
 }
 
 .relleno p, ul{
@@ -24,9 +25,11 @@ body{
 
 }
 
-#piscinas_municipales{
+#piscinas_municipales {
     text-align: center;
     font-size: 60px;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 #bienvenida_h1{
@@ -34,7 +37,9 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(4, 0, 255);
     text-align: center;
-    padding-top: 30px ;
+    margin-top: 25px ;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 /* Tabla de horario */
@@ -73,11 +78,14 @@ th{
 }
 
 #bienvenida{
-    grid-column: 2/7;
+    grid-column: 2/6;
     grid-row: 1/2;
     position: relative;
     margin: 30px 8%;
-    background-color: rgb(250, 104, 255);
+    text-align: justify;
+    padding-inline: 20px;
+    border: 1px solid black;
+    background-color: rgb(104, 200, 255);
     border-radius: 15px;
 }
 
@@ -86,21 +94,24 @@ th{
     grid-row: 2/3;
     position: relative;
     margin: 30px 8%;
+    text-align: justify;
 }
 
 #instalaciones{
-    grid-column: 5/7;
+    grid-column: 4/6;
     grid-row: 2/3;
     position: relative;
     margin: 30px 8%;
+    text-align: justify;
 
 }
 
 #actividades{
-    grid-column: 2/7;
+    grid-column: 2/6;
     grid-row: 3/4;
     position: relative;
     margin: 30px 8%;
+    text-align: justify;
 
 }
 
@@ -114,7 +125,7 @@ th{
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 80%;
+    opacity: 70%;
     border-radius: 15px;
 }
 
