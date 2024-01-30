@@ -148,6 +148,7 @@ th{
 
 #mapa{
    position: absolute;
+   grid-column: 2/3;
     float: right;
     height: 100%;
     float: left;
