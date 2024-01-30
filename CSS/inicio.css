@@ -100,26 +100,29 @@ th{
 .cabecera{
     box-sizing: border-box;
     position: sticky ;
-    /* Aimar */
+  
     top: 0;
+    margin: 0px 0PX;
     background-color: rgb(153, 243, 243);
     z-index: 4;
-    /* Aimar */
+
     border:1px solid black;
     width:100%;
     height: 50px;
-    float:left;
+    float:none;
 }
 #EscudoBurlada{
-    position: absolute;
+    position: relative;
     float: left;
     height: 100%;
 }
 .cabecera h1{
+    position: absolute;
     float: left;
     margin-top: 0px;
+    
     padding-top: 0px;
-    padding-left: 10px;
+    padding-left: 30px;
     
 }.cabecera h2{
     float: right;
@@ -131,56 +134,60 @@ th{
 }
 .piePagina{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: auto;
-    position: relative;
+    grid-area: 100%;
+    align-content: center;
+    padding-top: 5PX;
+    padding-bottom: 5PX;
+    float:inline-end;
+
+  
+    grid-template-columns: 50px auto auto auto ;
+    grid-template-rows: 100%;
+    position: absolute;
     box-sizing: border-box;
-    float: left;
-    margin: 5px;
+    
+    margin: 20px;
     border-width: border-box;
     border:1px solid black;
     width:100%;
     height: 100px;
+    column-gap: 10px;
+    
 }
-.piePagina
+
 .piePagina h1{
+    grid-column: 2/3;
     position: absolute;
-        float: left;
+        float: right;
         margin-top: 0px;
-        padding-top: 0px;
+        padding-top: 20px;
         padding-left: 10px;
+        left: 1%;
+        
 }
 
 #mapa{
    position: absolute;
-   grid-column: 2/3;
+   grid-column: 3/4;
     float: right;
     height: 100%;
+    width: 100%;
     float: left;
     top: 0px;
-    left: 25%;
+    
+
 }
 
 
 div #contactos  {
     position: absolute;
-    left: 40%;
+    grid-column: 4/5;
+
     padding-bottom: 0px;
     margin: 0px 0px;
    padding: 0px 0px;
     height: 100%;
-    justify-content: center;
+    justify-content:start;
     font-size: small;
-}
-div #contactos p{
-    grid-column: 3/4;
-    position: absolute;
-    margin: 1px 1px;
-    padding: 1px 1px;
-}
-#federacion  {
-    position: absolute;
-    grid-column:4/5;
-    font-size: large;
 }
 
