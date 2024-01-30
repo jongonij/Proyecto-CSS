@@ -123,20 +123,20 @@ th{
     z-index: 2;
 }
 
-/* Cabecera y pie de pagina */
+/* Cabecera*/
 
 .cabecera{
     box-sizing: border-box;
     position: sticky ;
-  
     top: 0;
-    margin: 0px 0PX;
+
+    margin: 0px 0px;
     background-color: rgb(153, 243, 243);
     z-index: 4;
 
     border:1px solid black;
     width:100%;
-    height: 50px;
+    height: 70px;
     float:none;
 }
 #EscudoBurlada{
@@ -149,17 +149,34 @@ th{
     float: left;
     margin-top: 0px;
     
-    padding-top: 0px;
-    padding-left: 30px;
+    padding-top: 15px;
+    padding-left: 50px;
     
-}.cabecera h2{
+}.cabecera a{
     float: right;
+    position: relative;
+    text-decoration: none;
+    height: 75%;
     
     margin-top: 0px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 23px;
+    padding-right: 23px;
+
+    font-size: xx-large;
 }
+/* Links cabecera */
+a:hover{
+    background-color: rgb(64, 211, 211);
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+/* Pie de pagina */
+
 .piePagina{
     display: grid;
     grid-area: 100%;
