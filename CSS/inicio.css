@@ -1,32 +1,82 @@
-.relleno p{
+.relleno p, ul{
     position: relative;
     margin: 10px 20px 30px 20px;
-    font-size: x-large;
+    font-size: 30px;
+    text-justify: auto;
 }
 
 .relleno h1{
     text-align: center;
+    font-size: 50px;
+
 }
+
+#bienvenida_h1{
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(123, 255, 0);
+    text-align: center;
+}
+
 /* Tabla de horario */
 table,th,td{
     border: 1px solid black;
+    width: 80%;
+    margin: 30px 10% 30px 10%;
+    font-size: x-large;
+    border-collapse: collapse;
+
+}
+
+td{
+    text-align: center;
+    width: 33%;
+    background-color: rgb(125, 238, 238);
+}
+
+th{
+    width: 15%;
+    background-color: rgb(63, 199, 199);
+}
+
+#dia_semana{
+    background-color: rgb(238, 215, 88);
+}
+
+#portero{
+    background-color: rgb(182, 117, 243);
 }
 
 
+/* Bloques de texto */
 
-
+#bienvenida{
+    position: relative;
+    margin: 30px 10%;
+    background-color: rgb(17, 173, 173);
+    border-radius: 15px;
+}
 
 #normativa{
     position: relative;
+    margin: 30px 10%;
 }
 
 #instalaciones{
     position: relative;
+    margin: 30px 10%;
 
 }
 
 #actividades{
     position: relative;
+    margin: 30px 10%;
+
+}
+
+#horario{
+    position: relative;
+    align-items: center;
 
 }
 
@@ -43,10 +93,11 @@ table,th,td{
     z-index: 2;
 }
 
+/* Cabecera y pie de pagina */
 
 .cabecera{
     box-sizing: border-box;
-    position: sticky;
+    position: sticky  ;
     border:1px solid black;
     width:100%;
     height: 50px;
