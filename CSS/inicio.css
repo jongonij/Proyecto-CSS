@@ -1,3 +1,9 @@
+/* Color fondo pagina */
+
+body{
+    background-color: rgb(163, 249, 255);
+}
+
 /* Formato texto */
 
 .relleno p, ul{
@@ -13,18 +19,23 @@
 
 }
 
-#bienvenida_h1{
-    font-size: 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(123, 255, 0);
+#piscinas_municipales{
     text-align: center;
+    font-size: 60px;
+}
+
+#bienvenida_h1{
+    font-size: 120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(4, 0, 255);
+    text-align: center;
+    padding-top: 30px ;
 }
 
 /* Tabla de horario */
 table,th,td{
     border: 1px solid black;
-    width: 80%;
-    margin: 30px 10% 30px 10%;
+    width: 100%;
     font-size: x-large;
     border-collapse: collapse;
 
@@ -52,33 +63,37 @@ th{
 
 /* Bloques de texto */
 
+#espacio{
+    position: relative;
+}
+
 #bienvenida{
     position: relative;
-    margin: 30px 10%;
-    background-color: rgb(17, 173, 173);
+    margin: 30px 8%;
+    background-color: rgb(250, 104, 255);
     border-radius: 15px;
 }
 
 #normativa{
     position: relative;
-    margin: 30px 10%;
+    margin: 30px 8%;
 }
 
 #instalaciones{
     position: relative;
-    margin: 30px 10%;
+    margin: 30px 8%;
 
 }
 
 #actividades{
     position: relative;
-    margin: 30px 10%;
+    margin: 30px 8%;
 
 }
 
 #horario{
     position: relative;
-    align-items: center;
+    margin: 30px 8%;
 
 }
 
