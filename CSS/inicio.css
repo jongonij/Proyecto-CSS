@@ -5,6 +5,11 @@ body{
 }
 
 /* Formato texto */
+.gridrrelleno{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-row: auto auto auto;
+}
 
 .relleno p, ul{
     position: relative;
@@ -68,6 +73,8 @@ th{
 }
 
 #bienvenida{
+    grid-column: 2/7;
+    grid-row: 1/2;
     position: relative;
     margin: 30px 8%;
     background-color: rgb(250, 104, 255);
@@ -75,17 +82,23 @@ th{
 }
 
 #normativa{
+    grid-column: 2/4;
+    grid-row: 2/3;
     position: relative;
     margin: 30px 8%;
 }
 
 #instalaciones{
+    grid-column: 5/7;
+    grid-row: 2/3;
     position: relative;
     margin: 30px 8%;
 
 }
 
 #actividades{
+    grid-column: 2/7;
+    grid-row: 3/4;
     position: relative;
     margin: 30px 8%;
 
