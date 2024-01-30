@@ -1,24 +1,45 @@
-#normativa img{
-    position: absolute;
-    opacity: 50%;
-    width: 100%;
-    height: 100%;
+p{
+    position: relative;
+    margin: 10px 20px 30px 20px;
 }
 
+h1{
+    text-align: center;
+}
+/* Tabla de horario */
+table,th,td{
+    border: 1px solid black;
+}
+
+
+
+
+
 #normativa{
-    box-sizing: border-box;
     position: relative;
 }
 
 #instalaciones{
-    background-image:url(../img/fondo_instalaciones.png) ;
+    position: relative;
+
 }
 
 #actividades{
-    background-image:url(../img/fondo_actividades.jpg);
-    background-color: rgba(0, 0, 0, 0.5);
-  
-    
+    position: relative;
+
+}
+
+#fotos_fondo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    border-radius: 15px;
+}
+
+#texto{
+    position: relative;
+    z-index: 2;
 }
 
 
