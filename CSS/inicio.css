@@ -16,7 +16,7 @@ body{
 .relleno p, ul{
     position: relative;
     margin: 10px 20px 30px 20px;
-    font-size: 30px;
+    font-size: 25px;
     text-justify: auto;
 }
 
@@ -28,7 +28,7 @@ body{
 
 #piscinas_municipales {
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     padding-top: 0px;
     margin-top: 0px;
 }
@@ -176,7 +176,7 @@ th{
     padding-left: 23px;
     padding-right: 23px;
 
-    font-size: xx-large;
+    font-size: x-large;
 }
 /* Links cabecera */
 a:hover{
@@ -212,7 +212,7 @@ a:visited {
     
 }
 
-.piePagina h1{
+.piePagina h2{
     grid-column: 2/3;
     position: absolute;
     float: right;
@@ -223,7 +223,7 @@ a:visited {
         
 }
 
-.piePagina h3{
+.piePagina h4{
     grid-column: 2/3;
     position: absolute;
     float: right;
@@ -256,6 +256,6 @@ div #contactos  {
     padding: 0px 20px;
     height: 50%;
     justify-content:start;
-    font-size: large;
+    font-size: medium;
 }
 
