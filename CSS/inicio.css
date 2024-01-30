@@ -1,13 +1,21 @@
+#normativa img{
+    position: absolute;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+}
+
 #normativa{
-    background-image:url(../imgs/fondo_normativa.jpg) ;
+    box-sizing: border-box;
+    position: relative;
 }
 
 #instalaciones{
-    background-image:url(../imgs/fondo_instalaciones.png) ;
+    background-image:url(../img/fondo_instalaciones.png) ;
 }
 
 #actividades{
-    background-image:url(../imgs/fondo_actividades.jpg);
+    background-image:url(../img/fondo_actividades.jpg);
     background-color: rgba(0, 0, 0, 0.5);
   
     
