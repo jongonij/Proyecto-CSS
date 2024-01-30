@@ -1,10 +1,9 @@
-.relleno p{
+p{
     position: relative;
     margin: 10px 20px 30px 20px;
-    font-size: x-large;
 }
 
-.relleno h1{
+h1{
     text-align: center;
 }
 /* Tabla de horario */
