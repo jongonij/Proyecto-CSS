@@ -52,6 +52,10 @@ th{
 
 /* Bloques de texto */
 
+#espacio{
+    position: relative;
+}
+
 #bienvenida{
     position: relative;
     margin: 30px 10%;
