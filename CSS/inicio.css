@@ -99,7 +99,12 @@ th{
 
 .cabecera{
     box-sizing: border-box;
-    position: sticky  ;
+    position: sticky ;
+    /* Aimar */
+    top: 0;
+    background-color: rgb(153, 243, 243);
+    z-index: 4;
+    /* Aimar */
     border:1px solid black;
     width:100%;
     height: 50px;
