@@ -78,7 +78,7 @@ th{
 }
 
 
-/* Bloques de texto */
+/* Bloques de texto Inicio*/
 
 #espacio{
     position: relative;
@@ -92,7 +92,6 @@ th{
     text-align: justify;
     padding-inline: 20px;
     border: 1px solid black;
-    background-color: rgb(255, 255, 255);
     border-radius: 15px;
 }
 
