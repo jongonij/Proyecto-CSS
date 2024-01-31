@@ -149,7 +149,7 @@ th{
     top: 0;
 
     margin: 0px 0px;
-    background-color: rgb(252, 252, 252);
+    background-color: white;
     z-index: 4;
 
     border-bottom:1px solid black;
@@ -174,11 +174,11 @@ th{
     float: right;
     position: relative;
     text-decoration: none;
-    height: 78%;
+    height: 100%;
     
-    margin-top: 0px;
+    margin-top: px;
     margin-bottom: 10px;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-left: 23px;
     padding-right: 23px;
 
@@ -202,13 +202,14 @@ a:visited {
 /* Pie de pagina */
 
 .piePagina{
+
     display: grid;
     grid-area: 100%;
     align-content: center;
     padding-top: 5PX;
     padding-bottom: 5PX;
     float:inline-end;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 
   
     grid-template-columns: 50px auto auto auto auto;
@@ -269,23 +270,30 @@ div #contactos  {
     font-size: medium;
 }
 div #redes{
-    border: 1px solid black;
+    top: 15%;
     position: absolute;
     grid-column: 5/6;
-   
     margin: 0px;
     box-sizing: border-box;
 }
 
 #insta{
-    
-   grid-column: 1/2;
-   grid-row: 1/2;
+
    height: 50px;
+   padding: 0px 0px;
+   margin: 0px 0px;
 }
 #youtube{
-    grid-column: 1/2;
-    grid-row: 2/3;
-    height: 50px;
-}
 
+    height: 50px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+#redes td,tr, table{
+    background-color: white;
+    margin: 0px 0px;
+    border: 0px;
+    padding: 10px 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
