@@ -41,6 +41,7 @@ p {
     font-size: 40px;
     padding-top: 0px;
     margin-top: 0px;
+    z-index: 2;
 }
 
 #bienvenida_h1{
@@ -51,6 +52,7 @@ p {
     margin-top: 25px ;
     margin-bottom: 20px;
     padding-bottom: 0px;
+    z-index: 2;
 }
 
 #actividades p{
@@ -99,9 +101,7 @@ th{
     position: relative;
     margin: 30px 8%;
     text-align: justify;
-    padding-inline: 20px;
     border: 1px solid black;
-    background-color: rgb(255, 255, 255);
     border-radius: 15px;
 }
 
@@ -141,8 +141,11 @@ th{
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 70%;
+    opacity: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
     border-radius: 15px;
+    z-index: 0;
 }
 
 #texto{
@@ -290,9 +293,11 @@ div #redes{
    width: 40px;
    padding: 0px 0px;
    margin: 0px 0px;
+   text-decoration: none;
+
 }
 #youtube{
-
+    text-decoration: none;
     height: 50px;
     padding: 0px 0px;
     margin: 0px 0px;
