@@ -293,6 +293,7 @@ div #redes{
 
 a:-webkit-any-link {
     text-decoration: none;
+    
 }
 
 #link:hover{
