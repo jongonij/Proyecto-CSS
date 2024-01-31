@@ -267,7 +267,6 @@ th{
     width: 100%;
     float: left;
     top: 0px;
-    
 
 }
 div #contactos  {
@@ -292,7 +291,6 @@ div #redes{
 
 a:-webkit-any-link {
     text-decoration: none;
-    
 }
 
 #link:hover{
@@ -317,6 +315,7 @@ a:visited {
     padding: 0px 0px;
     margin: 0px 0px;
 }
+
 #redes td,tr, table{
     background-color: white;
     margin: 0px 0px;
