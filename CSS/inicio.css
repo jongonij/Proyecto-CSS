@@ -267,7 +267,6 @@ th{
     width: 100%;
     float: left;
     top: 0px;
-    
 
 }
 div #contactos  {
@@ -289,7 +288,21 @@ div #redes{
     box-sizing: border-box;
 }
 
-#insta{
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+#link:hover{
+    background-color: rgb(159, 198, 248);
+}
+
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.insta{
    width: 40px;
    padding: 0px 0px;
    margin: 0px 0px;
@@ -302,6 +315,7 @@ div #redes{
     padding: 0px 0px;
     margin: 0px 0px;
 }
+
 #redes td,tr, table{
     background-color: white;
     margin: 0px 0px;
