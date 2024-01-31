@@ -207,10 +207,9 @@ th{
     color: rgb(0, 0, 0);
 }
 
-/* a:link{
+.cabecera a:link{
     color: rgb(0, 0, 0);
 }
-*/
 
 
 /* Pie de pagina */
@@ -291,7 +290,7 @@ div #redes{
 }
 
 
-a:-webkit-any-link {
+ a:-webkit-any-link {
     text-decoration: none;
 }
 
@@ -302,7 +301,7 @@ a:-webkit-any-link {
 
 a:visited {
     color: rgb(0, 0, 0);
-}
+} 
 
 .insta{
    width: 40px;
@@ -311,9 +310,10 @@ a:visited {
    text-decoration: none;
 
 }
-#youtube{
+.youtube{
     text-decoration: none;
     height: 50px;
+    width: 50px;
     padding: 0px 0px;
     margin: 0px 0px;
 }
@@ -325,4 +325,5 @@ a:visited {
     padding: 10px 10px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    right: 10px;
 }
