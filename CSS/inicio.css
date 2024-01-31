@@ -8,7 +8,7 @@ body{
 /* Formato texto */
 .gridrrelleno{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto ;
+    grid-template-columns: auto auto auto auto auto auto  ;
     grid-row: auto auto auto;
     gap: 10px 10px;
 }
@@ -205,7 +205,7 @@ a:visited {
     background-color: rgb(255, 255, 255);
 
   
-    grid-template-columns: 50px auto auto auto ;
+    grid-template-columns: 50px auto auto auto auto;
     grid-template-rows: 100%;
     position: absolute;
     box-sizing: border-box;
@@ -251,17 +251,35 @@ a:visited {
     
 
 }
-
-
 div #contactos  {
     position: absolute;
     grid-column: 4/5;
-
+ 
     padding-bottom: 0px;
     margin: 20px 5px;
-    padding: 0px 20px;
+    padding: 0px 0px;
     height: 50%;
     justify-content:start;
     font-size: medium;
+}
+div #redes{
+    border: 1px solid black;
+    position: absolute;
+    grid-column: 5/6;
+   
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#insta{
+    
+   grid-column: 1/2;
+   grid-row: 1/2;
+   height: 50px;
+}
+#youtube{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 50px;
 }
 
