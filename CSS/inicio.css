@@ -11,6 +11,10 @@ body{
     box-sizing: border-box;
 }
 
+p {
+    text-justify: auto;
+}
+
 /* Formato texto */
 .gridrrelleno{
     display: grid;
@@ -47,6 +51,11 @@ body{
     margin-top: 25px ;
     margin-bottom: 20px;
     padding-bottom: 0px;
+}
+
+#actividades p{
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 /* Tabla de horario */
