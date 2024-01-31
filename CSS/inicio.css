@@ -294,7 +294,7 @@ div #redes{
     text-decoration: none;
 }
 
-#link:hover{
+#link:hover, a:hover{
     background-color: rgb(159, 198, 248);
 }
 
