@@ -1,8 +1,14 @@
 /* Color fondo pagina */
 
 body{
-    background-color: lightblue;
+    background-image: url(../img/fondo_prueba2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* Formato texto */
@@ -86,7 +92,7 @@ th{
     text-align: justify;
     padding-inline: 20px;
     border: 1px solid black;
-    background-color: rgb(104, 200, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
 }
 
@@ -118,7 +124,7 @@ th{
 
 #horario{
     position: relative;
-    margin: 30px 8%;
+    margin: 30px 8.5%;
 
 }
 
