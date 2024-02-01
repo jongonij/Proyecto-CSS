@@ -200,63 +200,27 @@ th{
 
 .gridReserva{
     display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
     grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto auto auto auto;
-} 
-
-#formulario{
-    position: relative;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 15px;
-    grid-column: 2/6;
-}
-
-#reserva_horario{
-    grid-template-columns: 20% 50% 30% ;
-    position: absolute;
 }
 
 #datos{
-    position: relative;
-    grid-column: 2/5;
+    display: grid;
+    border: 2px solid red;
     grid-row: 1/2;
-
-    width: 100%;
-    height: 100%;
-    padding: 20px 40px;
+    grid-column: 3/4;
 }
 
-.foto_reserva{
-    float: right;
-    width: 50px;
-    height: 50px;
-}
-
-#datos label,#datos input{
-    font-style: oblique;
-    font-weight: bold;
-}
-
-#datos input, #datos select{
-    width: 200px;
-}
-
-#datos label{
-    border: 1px solid red;
-    width: 80px;
-    margin-left: 30px;
-}
-
-#reserva_horario2{
-    position: relative;
-    grid-column: 2/3;
+#reserva_horario{
+    border: 2px solid purple;
+    grid-column: 2/6;
+    grid-row: 2/3;
 }
 
 #checked{
     opacity: 30%;
     border: #1C4CBD;
-     background-color: #1C4CBD;
+    background-color: #1C4CBD;
 }
 
 /* Cabecera*/
