@@ -469,6 +469,9 @@ height:70px;
     column-gap: 10px;
     
 }
+.piePagina #EscudoBurlada{
+    grid-column: 1/2;
+}
 
 .piePagina #Bur{
     position: relative;
@@ -523,7 +526,7 @@ div #redes{
     top: 15%;
     width: 100%;
     position: absolute;
-    grid-column: 9/12;
+    grid-column: 10/11;
     margin: 0px;
     box-sizing: border-box;
     float: left;
