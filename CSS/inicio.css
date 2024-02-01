@@ -200,37 +200,88 @@ th{
 
 .gridReserva{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto ;
-    grid-template-rows: 45% 45% auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto   ;
+    grid-template-rows: auto auto auto auto auto auto auto auto    ;
 } 
-
-
 
 #formulario{
     display: grid;
-    width: 100%;
-    grid-column: 2/12;
+    height: 100%;
+    grid-column: 1/12;
+    grid-row: 1/12;
+    background-color: #1C4CBD;
 }
 
 #datos{
     display: grid;
-    grid-column: 2/12;
+    grid-column: 2/10;
     grid-row: 1/2;
-    border: 1px solid black;
-    margin-bottom: 30px;
+}
+
+#nombre{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    align-content: center;
+
+    border: 1px solid red;
+}
+
+#apellido{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 4/5;
+    align-content: center;
+}
+
+/* #foto{
+    display: grid;
+    width: 100%;
+    grid-row: 2/4;
+    grid-column: 9/11;
+} */
+
+#dni{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 3/4;
+    align-content: center;
+
+}
+
+#calle{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 4/5;
+
+    align-content: center;
 }
 
 #reserva_horario{
     display: grid;
-    grid-column: 2/12;
-    grid-row: 2/3;
+    grid-column: 2/10;
+    grid-row: 6/11;
     margin-bottom: 30px;
+}
+
+#reserva_horario2 td{
+    width: auto;
+    background-color: rgb(235, 235, 126);
+}
+
+#reserva_horario2 #primera th{
+    width: auto;
+    background-color: rgb(231, 231, 82);
+}
+
+#reserva_horario2 th{
+    background-color: rgb(231, 231, 82);
 }
 
 #boton{
     display: grid;
-    grid-column: 11/12;
-    grid-row: 3/4;
+    grid-column: 12/12;
+    grid-row: 12/12;
 }
 
 #checked{
