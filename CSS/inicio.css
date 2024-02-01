@@ -228,7 +228,7 @@ th{
 .cabecera{
     box-sizing: border-box;
     position: sticky ;
-    
+
     top: 0;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto  ;
