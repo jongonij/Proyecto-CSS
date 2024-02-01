@@ -140,7 +140,7 @@ th{
     
 }
 #horario table{
-    height: 100%;
+    height: 88%;
 }
 #horario td,#horario tr{
     
@@ -149,6 +149,7 @@ th{
     
 }
 #horario tr,td,th{
+   
     padding-top: 0px;
     padding-bottom: 0px;
 }
