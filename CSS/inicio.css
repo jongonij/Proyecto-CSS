@@ -235,7 +235,7 @@ th{
 }
 
 #primera_linea{
-    margin-top: 30px;
+    margin-top: 70px;
     margin-bottom: 30px;
     grid-row: 2/3;
     grid-column: 1/4;
@@ -252,10 +252,10 @@ th{
 }
 
 #segunda_linea{
-    margin-top: 30px;
+    margin-top: 70px;
     margin-bottom: 30px;
     grid-row: 2/3;
-    grid-column: 3/5;
+    grid-column: 3/4;
 }
 
 #formulario label{
@@ -276,21 +276,23 @@ th{
     display: flex;
     grid-column: 4/4;
     grid-row: 2/2;
-    width: 130px;
-    height: 130px;
-    border: 5px solid red;
-    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
 
 #reserva_horario2 td{
     width: auto;
+    height: 40px;
     background-color: rgb(235, 235, 126);
 }
 
 #reserva_horario2 #primera th{
     width: auto;
+    height: 40px;
+
     background-color: rgb(231, 231, 82);
 }
 
