@@ -15,9 +15,36 @@
         <a href="inicio.html">Inicio</a>
     </div>
 
-
-
-
+    <div id="formulario"  class="gridReserva">
+        <form action="reservar.html">
+            <div id="datos">
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre"/>
+                
+                <label for="apellido">Apellidos: </label>
+                <input type="text" id="apellido" name="apellido"/>
+                
+                <!-- <img src="../img/fondo_bienvenida.jpg" id="foto_reserva"/> -->
+                <br/>
+                <br/>
+                <label for="dni">DNI: </label>
+                <input type="text" id="dni" name="dni"/>
+                
+                <label for="calle">Calle: </label>
+                <select id="calle" name="calle">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                </select>
+            </div>
+            
+            <input type="submit" name="Enviar"/>
+        </form>
+    </div>
 
     
     <div class="piePagina">
