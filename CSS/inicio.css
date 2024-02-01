@@ -234,13 +234,13 @@ th{
 
 #formulario{
     display: grid;
-    grid-column: 2/9;
+    grid-column: 2/10;
     grid-row: 1/10;
 }
 
 #datos{
     display: grid;
-    grid-column: 2/9;
+    grid-column: 2/11;
     grid-row: 1/5;
     background-color: white;
     border-radius: 15px;
@@ -251,7 +251,7 @@ th{
 
 #reserva_horario{
     display: grid;
-    grid-column: 2/9;
+    grid-column: 2/11;
     grid-row: 6/10;
     margin-bottom: 30px;
 }
