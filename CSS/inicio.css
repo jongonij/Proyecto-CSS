@@ -518,13 +518,16 @@ th{
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto  ;
      width: 100%;
     margin: 0px 0px;
-    background-color: white;
+   background-color: white;
     z-index: 4;
 
     border-bottom:1px solid black;
   
     height: 70px;
     float:none;
+}
+.cabecera{
+   
 }
 #EscudoBurlada{
     position: relative;
