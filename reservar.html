@@ -31,36 +31,38 @@
     <div class="gridReserva">
         <form action="reservar.html" id="formulario">
             <div id="datos">
-                <div id="nombre">
-                    <label for="nombre">Nombre: </label>
-                    <input type="text" id="nombre" name="nombre"/>
-                </div>
-                
-                <div id="apellido">
-                    <label for="apellido">Apellidos: </label>
-                    <input type="text" id="apellido" name="apellido"/>
-                </div>
-                
-                <!-- <div id="foto">
-                    <img src="img/fondo_normativa.jpg" id="foto_reserva"/>
-                </div> -->
-            
-                <div id="dni">
-                    <label for="dni">DNI: </label>
-                    <input type="text" id="dni" name="dni"/>
-                </div>
+                <div id="primera_linea">
+                    <div id="nombre">
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" id="nombre" name="nombre"/>
+                    </div>
                     
-                <div id="calle">
-                    <label for="calle">Calle: </label>
-                    <select id="calle" name="calle">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                    </select>
+                    <div id="apellido">
+                        <label for="apellido">Apellidos: </label>
+                        <input type="text" id="apellido" name="apellido"/>
+                    </div>
+                </div>
+                <div id="foto">
+                    <img src="img/piscina_cubierta.png" id="foto_reserva"/>
+                </div>
+                <div id="segunda_linea">
+                    <div id="dni">
+                        <label for="dni">DNI: </label>
+                        <input type="text" id="dni" name="dni"/>
+                    </div>
+                        
+                    <div id="calle">
+                        <label for="calle">Calle: </label>
+                        <select id="calle" name="calle">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                        </select>
+                    </div>
                 </div>
             </div>
 
@@ -139,15 +141,11 @@
                         <td><input type="checkbox" value="D-18:00" checked="checked" id="checked" onclick="return false;"/></td>
                     </tr>
                 </table>
-            </div>
-
-            <div id="boton">
-                <input type="submit" name="Enviar"/>
+                <div id="boton">
+                    <input type="submit" name="Enviar"/>
+                </div>
             </div>
         </form>
-        <div id="espacio">
-            <p>.</p>
-        </div>
     </div>
 
 

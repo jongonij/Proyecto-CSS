@@ -196,73 +196,93 @@ th{
     z-index: 2;
 }
 
+
+
 /* Reservar */
 
 .gridReserva{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto   ;
-    grid-template-rows: auto auto auto auto auto auto auto auto    ;
+    grid-template-columns: 10%   10%   10%   10%   10%   10%   10%   10%   10%   10%   ;
+    grid-template-rows: 10%   10%   10%   10%   10%   10%   10%   10%   10%   10%    ;
 } 
 
 #formulario{
     display: grid;
-    height: 100%;
-    grid-column: 1/12;
-    grid-row: 1/12;
-    background-color: #1C4CBD;
+    grid-column: 2/9;
+    grid-row: 1/10;
 }
 
 #datos{
     display: grid;
-    grid-column: 2/10;
-    grid-row: 1/2;
-}
-
-#nombre{
-    display: grid;
-    grid-row: 2/3;
-    grid-column: 3/4;
-    align-content: center;
-
-    border: 1px solid red;
-}
-
-#apellido{
-    display: grid;
-    grid-row: 2/3;
-    grid-column: 4/5;
-    align-content: center;
-}
-
-/* #foto{
-    display: grid;
-    width: 100%;
-    grid-row: 2/4;
-    grid-column: 9/11;
-} */
-
-#dni{
-    display: grid;
-    grid-row: 3/4;
-    grid-column: 3/4;
-    align-content: center;
-
-}
-
-#calle{
-    display: grid;
-    grid-row: 3/4;
-    grid-column: 4/5;
-
-    align-content: center;
+    grid-column: 2/9;
+    grid-row: 1/5;
 }
 
 #reserva_horario{
     display: grid;
-    grid-column: 2/10;
-    grid-row: 6/11;
+    grid-column: 2/9;
+    grid-row: 6/10;
     margin-bottom: 30px;
 }
+
+#nombre{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#apellido{
+    display: flex;
+}
+
+#primera_linea{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-row: 2/3;
+    grid-column: 1/4;
+}
+
+#dni{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+#calle{
+    display: flex;
+}
+
+#segunda_linea{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-row: 2/3;
+    grid-column: 3/5;
+}
+
+#formulario label{
+    width: 80px;
+    font-size: x-large;
+}
+
+#primera_linea label{
+    width: 110px;
+    font-size: x-large;
+}
+
+#formulario input, #formulario select{
+    width: 200px;
+}
+
+#foto{
+    display: flex;
+    grid-column: 4/4;
+    grid-row: 2/2;
+    width: 130px;
+    height: 130px;
+    border: 5px solid red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 
 #reserva_horario2 td{
     width: auto;
@@ -279,9 +299,9 @@ th{
 }
 
 #boton{
-    display: grid;
-    grid-column: 12/12;
-    grid-row: 12/12;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #checked{
