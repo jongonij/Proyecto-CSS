@@ -96,7 +96,7 @@ th{
 }
 
 
-/* Bloques de texto */
+/* Bloques de texto Inicio */
 #bienvenida{
     box-sizing: border-box;
     grid-column: 1/12;
@@ -193,6 +193,52 @@ th{
 #texto{
     position: relative;
     z-index: 2;
+}
+
+/* Reservar */
+
+.gridReserva{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+#formulario{
+    position: relative;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#datos{
+    position: relative;
+    grid-column: 2/5;
+    grid-row: 1/2;
+
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px;
+}
+
+.foto_reserva{
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+
+#datos label,#datos input{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#datos input, #datos select{
+    width: 200px;
+}
+
+#datos label{
+    border: 1px solid red;
+    width: 80px;
+    margin-left: 30px;
 }
 
 /* Cabecera*/
