@@ -295,6 +295,7 @@ th{
 .cabecera{
     box-sizing: border-box;
     position: sticky ;
+
     top: 0;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto  ;
@@ -375,6 +376,7 @@ height:70px;
     padding-bottom: 5PX;
     float:inline-end;
     background-color: white;
+    
 
   
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
@@ -392,6 +394,7 @@ height:70px;
 
 .piePagina #Bur{
     position: relative;
+    float: left;
     padding-top: 40px;
     padding-left: 0px;
     grid-column: 2/3;
@@ -421,7 +424,7 @@ height:70px;
 
 #mapa{
     position: absolute;
-    grid-column: 3/4;
+    grid-column: 3/7;
     float: right;
     height: 100%;
     width: 100%;
@@ -431,8 +434,8 @@ height:70px;
 }
 div #contactos  {
     position: absolute;
-    grid-column: 4/5;
- 
+    grid-column: 7/9;
+    float: left;
     padding-bottom: 0px;
     margin: 20px 5px;
     padding: 0px 0px;
@@ -442,10 +445,12 @@ div #contactos  {
 }
 div #redes{
     top: 15%;
+    width: 100%;
     position: absolute;
-    grid-column: 5/6;
+    grid-column: 9/12;
     margin: 0px;
     box-sizing: border-box;
+    float: left;
 }
 
 
@@ -484,5 +489,6 @@ a:visited {
     padding: 10px 10px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    right: 10px;
+   
+    /* right: 10px; */
 }
