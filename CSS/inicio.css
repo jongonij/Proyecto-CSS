@@ -201,20 +201,36 @@ th{
 .gridReserva{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto ;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 45% 45% auto;
 } 
 
 
-#reserva_horario{
-    border: 2px solid purple;
-    grid-column: 2/6;
-    grid-row: 2/3;
+
+#formulario{
+    display: grid;
+    width: 100%;
+    grid-column: 2/12;
 }
 
-#reserva_horario2{
-    position: relative;
-    grid-column: 2/3;
+#datos{
+    display: grid;
+    grid-column: 2/12;
+    grid-row: 1/2;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+#reserva_horario{
+    display: grid;
+    grid-column: 2/12;
+    grid-row: 2/3;
+    margin-bottom: 30px;
+}
+
+#boton{
+    display: grid;
+    grid-column: 11/12;
+    grid-row: 3/4;
 }
 
 #checked{
