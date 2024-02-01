@@ -415,19 +415,24 @@ height:70px;
 
 @media only screen and (max-width: 840px) {
     
-#cabeceraPiscina{
+#cabeceraPiscina a{
     grid-column: 12/13;
     grid-row: 1/2;
+    font-size: medium;
 }
 
-#cabeceraReservar{
+#cabeceraReservar a{
     grid-column: 11/12;
     grid-row: 1/2;
+    font-size: medium;
+
 }
 
-#cabeceraInicio{
+#cabeceraInicio a {
     grid-column: 10/11;
     grid-row: 1/2;
+    font-size: medium;
+
 }
 }
 
