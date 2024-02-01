@@ -201,13 +201,19 @@ th{
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: auto auto auto auto auto auto;
-}
+} 
 
 #formulario{
     position: relative;
     background-color: white;
     border: 1px solid black;
     border-radius: 15px;
+    grid-column: 2/6;
+}
+
+#reserva_horario{
+    grid-template-columns: 20% 50% 30% ;
+    position: absolute;
 }
 
 #datos{
@@ -239,6 +245,17 @@ th{
     border: 1px solid red;
     width: 80px;
     margin-left: 30px;
+}
+
+#reserva_horario2{
+    position: relative;
+    grid-column: 2/3;
+}
+
+#checked{
+    opacity: 30%;
+    border: #1C4CBD;
+     background-color: #1C4CBD;
 }
 
 /* Cabecera*/

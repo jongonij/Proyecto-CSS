@@ -16,8 +16,8 @@
     </div>
 
     <div id="formulario"  class="gridReserva">
-        <form action="reservar.html">
-            <div id="datos">
+        <form action="reservar.html" id="formulario">
+            <div id="datos" class="gridDatos">
                 <label for="nombre">Nombre: </label>
                 <input type="text" id="nombre" name="nombre"/>
                 
@@ -41,7 +41,83 @@
                     <option value="7">7</option>
                 </select>
             </div>
-            
+
+            <div id="reserva_horario">
+                <table id="reserva_horario2">
+                    <tr>
+                        <th></th>
+                        <th>9:00</th>
+                        <th>10:00</th>
+                        <th>11:00</th>
+                        <th>12:00</th>
+                        <th>17:00</th>
+                        <th>18:00</th>
+                    </tr>
+                    <tr>
+                        <th>Lunes</th>
+                        <td><input type="checkbox" value="L-9:00" checked="checked" id="checked" onclick="return false;"/></td>
+                        <td><input type="checkbox" value="L-10:00"/></td>
+                        <td><input type="checkbox" value="L-11:00"/></td>
+                        <td><input type="checkbox" value="L-12:00" checked="checked" id="checked" onclick="return false;"/></td>
+                        <td><input type="checkbox" value="L-17:00"/></td>
+                        <td><input type="checkbox" value="L-18:00"/></td>
+                    </tr>
+                    <tr>
+                        <th>Martes</th>
+                        <td><input type="checkbox" value="M-9:00" checked="checked" id="checked" onclick="return false;"/></td>
+                        <td><input type="checkbox" value="M-10:00" checked="checked" id="checked" onclick="return false;"/></td>
+                        <td><input type="checkbox" value="M-11:00" checked="checked" id="checked" onclick="return false;"/></td>
+                        <td><input type="checkbox" value="M-12:00"/></td>
+                        <td><input type="checkbox" value="M-17:00"/></td>
+                        <td><input type="checkbox" value="M-18:00"/></td>
+                    </tr>
+                    <tr>
+                        <th>Miercoles</th>
+                        <td><input type="checkbox" value="X-9:00"/> </td>
+                        <td><input type="checkbox" value="X-10:00"/></td>
+                        <td><input type="checkbox" value="X-11:00"/></td>
+                        <td><input type="checkbox" value="X-12:00"/></td>
+                        <td><input type="checkbox" value="X-17:00"/></td>
+                        <td><input type="checkbox" value="X-18:00"/></td>
+                    </tr>
+                    <tr>
+                        <th>Jueves</th>
+                        <td><input type="checkbox" value="J-9:00"/> </td>
+                        <td><input type="checkbox" value="J-10:00"/></td>
+                        <td><input type="checkbox" value="J-11:00"/></td>
+                        <td><input type="checkbox" value="J-12:00"/></td>
+                        <td><input type="checkbox" value="J-17:00" checked="checked" id="checked" onclick="return false;"/></td>
+                        <td><input type="checkbox" value="J-18:00"/></td>
+                    </tr>
+                    <tr>
+                        <th>Viernes</th>
+                        <td><input type="checkbox" value="V-9:00"/> </td>
+                        <td><input type="checkbox" value="V-10:00"/></td>
+                        <td><input type="checkbox" value="V-11:00" checked="checked" id="checked" onclick="return false;"/></td>
+                        <td><input type="checkbox" value="V-12:00"/></td>
+                        <td><input type="checkbox" value="V-17:00"/></td>
+                        <td><input type="checkbox" value="V-18:00"/></td>
+                    </tr>
+                    <tr>
+                        <th>Sabado</th>
+                        <td><input type="checkbox" value="S-9:00"/> </td>
+                        <td><input type="checkbox" value="S-10:00"/></td>
+                        <td><input type="checkbox" value="S-11:00"/></td>
+                        <td><input type="checkbox" value="S-12:00"/></td>
+                        <td><input type="checkbox" value="S-17:00"/></td>
+                        <td><input type="checkbox" value="S-18:00"/></td>
+                    </tr>
+                    <tr>
+                        <th>Domingo</th>
+                        <td><input type="checkbox" value="D-9:00" checked="checked" id="checked" onclick="return false;"/></td>
+                        <td><input type="checkbox" value="D-10:00" checked="checked" id="checked" onclick="return false;"/></td>
+                        <td><input type="checkbox" value="D-11:00"/></td>
+                        <td><input type="checkbox" value="D-12:00"/></td>
+                        <td><input type="checkbox" value="D-17:00" checked="checked" id="checked" onclick="return false;"/></td>
+                        <td><input type="checkbox" value="D-18:00" checked="checked" id="checked" onclick="return false;"/></td>
+                    </tr>
+                </table>
+            </div>
             <input type="submit" name="Enviar"/>
         </form>
     </div>
