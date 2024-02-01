@@ -18,8 +18,8 @@ p {
 /* Formato texto */
 .gridrrelleno{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto  ;
-    grid-row: auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto  ;
+    grid-row: auto auto auto auto;
     /* gap: 10px 10px; */
 }
 
@@ -71,7 +71,6 @@ p {
 /* Tabla de horario */
 table,th,td{
     border: 1px solid black;
-    width: 100%;
     font-size: x-large;
     border-collapse: collapse;
 
@@ -100,14 +99,14 @@ th{
 /* Bloques de texto */
 #bienvenida{
     box-sizing: border-box;
-    grid-column: 1/6;
+    grid-column: 1/12;
     grid-row: 1/2;
     position: relative;
     text-align: justify;
 }
 
 #normativa{
-    grid-column: 2/4;
+    grid-column: 2/6;
     grid-row: 2/3;
     position: relative;
     margin: 30px 8%;
@@ -115,7 +114,7 @@ th{
 }
 
 #instalaciones{
-    grid-column: 4/6;
+    grid-column: 6/10;
     grid-row: 2/3;
     position: relative;
     margin: 30px 8%;
@@ -134,12 +133,42 @@ th{
 
 #horario{
     position: relative;
-    grid-column: 2/6;
-    grid-row: 4/4;
+    grid-column: 6/10;
+    grid-row: 3/4;
     margin: 30px 8%;
-
+    height: 100%;
+    
+}
+#horario table{
+    height: 100%;
+}
+#horario td,#horario tr{
+    
+    font-size: small;
+    /* width: 100%; */
+    
+}
+#horario tr,td,th{
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
+#fotoCarru{
+    grid-column: 2/11;
+    box-sizing: border-box;
+    grid-row: 4/5;
+    position: relative;
+    margin: 30px 8%;
+    text-align: justify;
+
+    
+}
+#carrufotodedentro{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
 #fotos_fondo{
     position: absolute;
     width: 100%;
