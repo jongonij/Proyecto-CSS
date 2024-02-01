@@ -394,18 +394,41 @@ height:70px;
     padding-right: 23px;
     font-size: x-large;
 }
+
 #cabeceraPiscina{
     grid-column: 12/13;
     grid-row: 1/2;
 }
+
 #cabeceraReservar{
     grid-column: 11/12;
     grid-row: 1/2;
 }
+
 #cabeceraInicio{
     grid-column: 10/11;
     grid-row: 1/2;
 }
+
+@media only screen and (max-width: 840px) {
+    
+#cabeceraPiscina{
+    grid-column: 12/13;
+    grid-row: 1/2;
+}
+
+#cabeceraReservar{
+    grid-column: 11/12;
+    grid-row: 1/2;
+}
+
+#cabeceraInicio{
+    grid-column: 10/11;
+    grid-row: 1/2;
+}
+}
+
+
 /* Links cabecera */
 .cabecera a:hover{
     background-color: rgb(64, 211, 211);
