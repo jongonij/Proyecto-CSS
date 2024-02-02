@@ -568,77 +568,54 @@ p {
 /* PISCINAS (Ordenador, Tablet, Movil) */
 
 #contenedorPiscinas{
-    box-sizing: border-box;
     display: grid;
     width: 100%;
     gap: 20px 20px;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
     grid-template-rows: auto auto auto auto;
 }
-#contenedorOlimpica{
-    box-sizing: border-box;
+
+.bloquesPiscinas{
+    display: grid;
+    position: relative;
     border: 1px solid black;
     border-radius: 15px;
-    position: relative;
     grid-column: 2/12;
-    grid-row: 1/2;
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 20px ;
+}
+
+#contenedorOlimpica{
+    margin-top: 20px;
   
-    display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
     grid-template-rows: auto auto auto;
-    
+    grid-row: 1/2;
 }
+
 #contenedorTxiki{
-    box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 15px;
-    position: relative;
-    grid-column: 2/12;
+    grid-template-columns: auto auto auto auto auto  ;
+    grid-template-rows: auto auto auto;
     grid-row: 2/3;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px ;
-   
-    display: grid;
-    grid-template-columns: auto auto auto auto auto  ;
-    grid-template-rows: auto auto auto;
-    
 }
+
+
 #contenedorCubierta{
-    box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 15px;
-    position: relative;
-    grid-column: 2/12;
+    grid-template-columns: auto auto auto auto auto  ;
+    grid-template-rows: auto auto auto;
     grid-row: 3/4;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px ;
-   
-    display: grid;
-    grid-template-columns: auto auto auto auto auto  ;
-    grid-template-rows: auto auto auto;
-    
 }
+
 #contenedorSPA{
-    box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 15px;
-    position: relative;
-    grid-column: 2/12;
-    grid-row: 4/5;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px ;
-   
-    display: grid;
+    margin-bottom: 30px;
+    
     grid-template-columns: auto auto auto auto auto  ;
     grid-template-rows: auto auto auto;
-    
+    grid-row: 4/5;
 }
+
+
 .piscinaNombre{
     position: relative;
     grid-column: 1/2;
