@@ -126,7 +126,7 @@ p {
         /* gap: 10px 10px; */
     }
 
-    .relleno p, ul{
+    .relleno p, .relleno ul{
         position: relative;
         margin: 10px 20px 30px 20px;
         font-size: 25px;
@@ -197,77 +197,67 @@ p {
         background-color: rgb(182, 117, 243);
     }
 
-    #bienvenida{
-        box-sizing: border-box;
-        grid-column: 1/12;
-        grid-row: 1/2;
+    .relleno{
         position: relative;
         text-align: justify;
+    }
+
+    #bienvenida{
+        grid-column: 1/12;
+        grid-row: 1/2;
     }
 
     #normativa{
         grid-column: 2/6;
         grid-row: 2/3;
-        position: relative;
         margin: 30px 8%;
-        text-align: justify;
     }
 
     #instalaciones{
         grid-column: 6/10;
         grid-row: 2/3;
-        position: relative;
         margin: 30px 8%;
-        text-align: justify;
-
     }
 
     #actividades{
         grid-column: 2/6;
         grid-row: 3/4;
-        position: relative;
         margin: 30px 8%;
-        text-align: justify;
-
     }
 
     #horario{
-        position: relative;
         grid-column: 6/10;
         grid-row: 3/4;
         margin: 30px 8%;
         height: 100%;
-        
     }
+
     #horario table{
         height: 88%;
     }
+
     #horario td,#horario tr{
-        
-        font-size: small;
-        /* width: 100%; */
-        
+        font-size: small;        
     }
+
     #horario tr,td,th{
-    
         padding-top: 0px;
         padding-bottom: 0px;
     }
 
     #fotoCarru{
         grid-column: 2/11;
-        box-sizing: border-box;
         grid-row: 4/5;
-        position: relative;
         margin: 30px 8%;
-        text-align: justify; 
     }
+
     #carrufotodedentro{
         width: 100%;
         height: 300px;
         margin-bottom: 0px;
         padding-bottom: 0px;
     }
+
     #fotos_fondo{
         position: absolute;
         width: 100%;
@@ -323,30 +313,14 @@ p {
             padding-top: 0px;
             padding-bottom: 0px;
         }
-    
-        #cabeceraPiscina a{
+        
+        #containerLinks{
             margin-top: 0px;
             padding-left: 8px;
             padding-right: 8px;
             font-size: x-large;
         }
         
-        #cabeceraReservar a{
-            margin-top: 0px;
-            padding-left: 8px;
-            padding-right: 8px;
-            font-size: x-large;
-        }
-        
-        #cabeceraInicio a{
-            margin-top: 0px;
-            padding-left: 8px;
-            padding-right: 8px;
-            font-size: x-large;
-        }
-
-
-
     }
     /* Fin Inicio Tablet */
 
@@ -355,18 +329,9 @@ p {
 
 
         /* Cabecera */
-        #cabeceraPiscina a{
+
+        #containerLinks{
             padding: 25px;
-            font-size: medium;
-        }
-
-        #cabeceraReservar a{  
-            padding-top: 25px;
-            font-size: medium;
-        }
-
-        #cabeceraInicio a{
-            padding-top: 25px;
             font-size: medium;
         }
 
@@ -375,38 +340,32 @@ p {
             font-size: large;
         }
 
-        #bienvenida{
-            box-sizing: border-box;
-            grid-column: 1/12;
-            grid-row: 1/2;
+        .relleno{
             position: relative;
             text-align: justify;
+        }
+        #bienvenida{
+            grid-column: 1/12;
+            grid-row: 1/2;
+            
         }
         
         #normativa{
             grid-column: 2/10;
             grid-row: 2/2;
-            position: relative;
             margin: 30px 8%;
-            text-align: justify;
         }
         
         #instalaciones{
             grid-column: 2/10;
             grid-row: 3/3;
-            position: relative;
-            margin: 30px 8%;
-            text-align: justify;
-        
+            margin: 30px 8%;        
         }
         
         #actividades{
             grid-column: 2/10;
             grid-row: 4/4;
-            position: relative;
-            margin: 30px 8%;
-            text-align: justify;
-        
+            margin: 30px 8%;        
         }
         
         #horario{
@@ -581,116 +540,99 @@ p {
 /* PISCINAS (Ordenador, Tablet, Movil) */
 /* PISCINAS (Ordenador, Tablet, Movil) */
 
-#contenedorPiscinas{
-    box-sizing: border-box;
-    display: grid;
-    width: 100%;
-    gap: 20px 20px;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-}
-#contenedorOlimpica{
-    box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 15px;
-    position: relative;
-    grid-column: 2/12;
-    grid-row: 1/2;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px ;
-  
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-    grid-template-rows: auto auto auto;
+    #contenedorPiscinas{
+        display: grid;
+        width: 100%;
+        gap: 20px 20px;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .bloquesPiscinas{
+        display: grid;
+        position: relative;
+        border: 1px solid black;
+        border-radius: 15px;
+        grid-column: 2/12;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 20px ;
+
+        background-color: white;
+    }
+
+    #contenedorOlimpica{
+        margin-top: 20px;
     
-}
-#contenedorTxiki{
-    box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 15px;
-    position: relative;
-    grid-column: 2/12;
-    grid-row: 2/3;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px ;
-   
-    display: grid;
-    grid-template-columns: auto auto auto auto auto  ;
-    grid-template-rows: auto auto auto;
-    
-}
-#contenedorCubierta{
-    box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 15px;
-    position: relative;
-    grid-column: 2/12;
-    grid-row: 3/4;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px ;
-   
-    display: grid;
-    grid-template-columns: auto auto auto auto auto  ;
-    grid-template-rows: auto auto auto;
-    
-}
-#contenedorSPA{
-    box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 15px;
-    position: relative;
-    grid-column: 2/12;
-    grid-row: 4/5;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px ;
-   
-    display: grid;
-    grid-template-columns: auto auto auto auto auto  ;
-    grid-template-rows: auto auto auto;
-    
-}
-.piscinaNombre{
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-.medidasPiscinas{
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 2/3;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    right: 0px;
-}
-.textoPiscinas{
-    position: relative;
-    grid-column: 2/5;
-    grid-row: 2/3;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    padding-bottom: 0px;
-}
-.imgPiscinas{
-    position: relative;
-    grid-column: 6/13;
-    grid-row: 1/3;
-   margin: 0px 0px;
-   padding-bottom: 25px;  
-   padding-top: 30px;
-   width: 20p;
-}
-.widthImg{
-    width: 300px;
-}
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-row: 1/2;
+    }
+
+    #contenedorTxiki{
+        grid-template-columns: auto auto auto auto auto  ;
+        grid-template-rows: auto auto auto;
+        grid-row: 2/3;
+    }
+
+
+    #contenedorCubierta{
+        grid-template-columns: auto auto auto auto auto  ;
+        grid-template-rows: auto auto auto;
+        grid-row: 3/4;
+    }
+
+    #contenedorSPA{
+        margin-bottom: 30px;
+
+        grid-template-columns: auto auto auto auto auto  ;
+        grid-template-rows: auto auto auto;
+        grid-row: 4/5;
+    }
+
+    .piscinaNombre{
+        position: relative;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .medidasPiscinas{
+        position: relative;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding-top: 0px;
+        padding-bottom: 60px;
+        right: 0px;
+    }
+    .textoPiscinas{
+        position: relative;
+        grid-column: 2/5;
+        grid-row: 2/3;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .textoPiscinas ul{
+        text-align: left;
+        grid-column: 1/5;
+    }
+    .imgPiscinas{
+        position: relative;
+        grid-column: 6/13;
+        grid-row: 1/3;
+        margin: 0px 0px;
+        padding-bottom: 25px;  
+        padding-top: 30px;
+        padding-right: 5px;
+        width: 20p;
+    }
+    .widthImg{
+        width: 300px;
+    }
 
 /* FIN PISCINAS*/
 /* FIN PISCINAS*/
@@ -703,7 +645,6 @@ p {
 /* INICIO PIE PAGINA */
 
     .piePagina{
-
         display: grid;
         grid-area: 100%;
         align-content: center;
@@ -712,8 +653,6 @@ p {
         float:inline-end;
         background-color: white;
         
-
-    
         grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
         grid-template-rows: 100%;
         position: absolute;
@@ -756,6 +695,7 @@ p {
         justify-content:start;
         font-size: small;
     }
+
     div #redes{
         top: 15%;
         width: 100%;
@@ -765,7 +705,6 @@ p {
         box-sizing: border-box;
         float: left;
     }
-
 
     a:-webkit-any-link {
         text-decoration: none;
@@ -782,11 +721,10 @@ p {
     } 
 
     .insta{
-    width: 40px;
-    padding: 0px 0px;
-    margin: 0px 0px;
-    text-decoration: none;
-
+        width: 40px;
+        padding: 0px 0px;
+        margin: 0px 0px;
+        text-decoration: none;
     }
     .youtube{
         text-decoration: none;
