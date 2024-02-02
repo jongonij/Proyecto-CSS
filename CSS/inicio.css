@@ -679,11 +679,12 @@ p {
     /* Inicio Movil */
     @media only screen and (max-width: 666px) {
 
-
+        .bloquesPiscinas{
+            grid-template-rows: 40% auto;
+        }
         .widthImg{
             padding-top: 0px;
             width: 100px;
-
         }
         .piscinaNombre h2{
             padding-top: 10px;
@@ -696,6 +697,7 @@ p {
             grid-row: 1/2;
             padding-left: 25px;
             font-size: medium;
+            padding-bottom: 0px ;
         }
         .textoPiscinas p, .textoPiscinas{
             padding: 0px 0px;
