@@ -245,8 +245,6 @@ th{
         font-size: x-large;
     }
 
-    /* Pie de pagina */
-
   }
   /* Fin Inicio Tablet */
 
@@ -467,9 +465,7 @@ th{
     height: 70px;
     float:none;
 }
-.cabecera{
-   
-}
+
 #EscudoBurlada{
     position: relative;
     right: 0%;
