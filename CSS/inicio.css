@@ -386,6 +386,36 @@ p {
             background-color: rgb(64, 211, 211);
             height: 99%;
         }
+        .piePagina{
+            width: 100%;
+            grid-template-rows: auto auto;
+        }
+
+        .piePagina #EscudoBurlada{
+            width: 50px;
+            height: 70px;
+         top: 100px;
+            grid-row: 1/2;
+            
+        }
+        .piePagina #Bur h2,.piePagina #Bur h4{
+          
+            grid-row: 2/3;
+            grid-column: 1/2;
+          
+        }
+        .piePagina #Bur {
+            grid-row: 2/3;
+            grid-column: 1/2;
+            width: 50px;
+            font-size: smaller;
+            margin: 0px 0px;
+            padding: 0px 0px;
+        }
+        #mapa{
+            grid-column:3/4 ;
+            width: 90px;
+        }
         /* Fin Inicio Movil */
     }
 /* FIN INICIO */
