@@ -228,18 +228,21 @@ th{
  
     /* Cabecera */
     #cabeceraPiscina a{
+        margin-top: 0px;
         padding-left: 8px;
         padding-right: 8px;
         font-size: x-large;
     }
     
     #cabeceraReservar a{
+        margin-top: 0px;
         padding-left: 8px;
         padding-right: 8px;
         font-size: x-large;
     }
     
     #cabeceraInicio a{
+        margin-top: 0px;
         padding-left: 8px;
         padding-right: 8px;
         font-size: x-large;
@@ -254,17 +257,17 @@ th{
 
     /* Cabecera */
     #cabeceraPiscina a{
-        margin-top: 5px;
+        padding: 25px;
         font-size: medium;
     }
 
     #cabeceraReservar a{  
-        margin-top: 5px;
+        padding-top: 25px;
         font-size: medium;
     }
 
     #cabeceraInicio a{
-        margin-top: 5px;
+        padding-top: 25px;
         font-size: medium;
     }
 
@@ -319,6 +322,11 @@ th{
     #fotoCarru{
         grid-column: 2/10;
         grid-row: 6/6;
+    }
+
+    .cabecera a:hover{
+        background-color: rgb(64, 211, 211);
+        height: 99%;
     }
 
 }
@@ -519,6 +527,7 @@ height:70px;
 /* Links cabecera */
 .cabecera a:hover{
     background-color: rgb(64, 211, 211);
+    height: 94%;
 }
 
 .cabecera a:visited {
