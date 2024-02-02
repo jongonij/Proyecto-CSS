@@ -398,137 +398,130 @@ p {
 /* RESERVAR (Ordenador, Movil, Tablet) */
 /* RESERVAR (Ordenador, Movil, Tablet) */
 
-.gridReserva{
-    display: grid;
-    width: 100%;
-    gap: 20px 20px;
-    grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto  ;
-    grid-template-rows: auto auto auto auto auto auto auto auto auto auto    ;
-} 
+    .gridReserva{
+        display: grid;
+        width: 100%;
+        gap: 20px 20px;
+        grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto  ;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto    ;
+    } 
 
 
+    #datos{ 
+        width: 100%;
+        grid-column: 2/13;
+        grid-row: 1/5;
+        margin-left: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+    
+        background-color: white;
+        border-radius: 15px;
+        border: 1px solid black;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
 
-#datos{ 
-    width: 100%;
-    grid-column: 2/13;
-    grid-row: 1/5;
-   margin-left: 100px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-   
-    /* margin-right: 140px; */
+    #reserva_horario{
+        margin-left: 100px;
+        display: grid;
+        width: 100%;
+        grid-column: 2/11;
+        grid-row: 6/10;
+        margin-bottom: 30px;
+    }
 
-  
-   
-    background-color: white;
-    border-radius: 15px;
-    border: 1px solid black;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
+    #nombre{
+        position: relative;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-bottom: 10px;
+    }
 
-#reserva_horario{
-   margin-left: 100px;
-    /* padding-right: 140px; */
-    display: grid;
-    width: 100%;
-    grid-column: 2/11;
-    grid-row: 6/10;
-    margin-bottom: 30px;
-}
+    #apellido{
+        position: relative;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
 
-#nombre{
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    margin-bottom: 10px;
-}
+    #primera_linea{
+        margin-top: 100px;
+        margin-bottom: 30px;
+        margin-left: 25px;
+        grid-row: 2/3;
+        grid-column: 1/4;
+    }
 
-#apellido{
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
+    #dni{
+        position: relative;
+        margin-bottom: 10px;
 
-#primera_linea{
-    margin-top: 100px;
-    margin-bottom: 30px;
-    margin-left: 25px;
-    grid-row: 2/3;
-    grid-column: 1/4;
-}
+    }
 
-#dni{
-    position: relative;
-    margin-bottom: 10px;
+    #calle{
+        position: relative;
+    }
 
-}
+    #segunda_linea{
+        margin-top: 100px;
+        margin-bottom: 30px;
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
 
-#calle{
-    position: relative;
-}
+    #formulario label{
+        width: 70px;
+        font-size: x-large;
+    }
 
-#segunda_linea{
-    margin-top: 100px;
-    margin-bottom: 30px;
-    grid-row: 2/3;
-    grid-column: 3/4;
-}
+    #primera_linea label{
+        width: 100px;
+        font-size: x-large;
+    }
 
-#formulario label{
-    width: 70px;
-    font-size: x-large;
-}
+    #formulario input, #formulario select{
+        width: 150px;
+    }
 
-#primera_linea label{
-    width: 100px;
-    font-size: x-large;
-}
+    #foto{
+        display: flex;
+        grid-column: 4/4;
+        grid-row: 2/2;
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
 
-#formulario input, #formulario select{
-    width: 150px;
-}
+    #reserva_horario2 td{
+        width: auto;
+        height: 40px;
+        background-color: rgb(235, 235, 126);
+    }
 
-#foto{
-    display: flex;
-    grid-column: 4/4;
-    grid-row: 2/2;
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
+    #reserva_horario2 #primera th{
+        width: auto;
+        height: 40px;
 
-#reserva_horario2 td{
-    width: auto;
-    height: 40px;
-    background-color: rgb(235, 235, 126);
-}
+        background-color: rgb(231, 231, 82);
+    }
 
-#reserva_horario2 #primera th{
-    width: auto;
-    height: 40px;
+    #reserva_horario2 th{
+        background-color: rgb(231, 231, 82);
+    }
 
-    background-color: rgb(231, 231, 82);
-}
+    #boton{
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
 
-#reserva_horario2 th{
-    background-color: rgb(231, 231, 82);
-}
-
-#boton{
-    margin-top: 10px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-#checked{
-    opacity: 30%;
-    border: #1C4CBD;
-     background-color: #1C4CBD;
-}
-
+    #checked{
+        opacity: 30%;
+        border: #1C4CBD;
+        background-color: #1C4CBD;
+    }
 /* FIN RESERVAR*/
 /* FIN RESERVAR*/
 /* FIN RESERVAR*/
@@ -633,6 +626,53 @@ p {
     .widthImg{
         width: 300px;
     }
+
+    
+    /* Inicio Tablet */
+    @media only screen and (max-width: 840px) {
+        .widthImg{
+            padding-top: 40px;
+            width: 200px;
+        }
+
+    }
+    /* Fin Tablet */
+
+    /* Inicio Movil */
+    @media only screen and (max-width: 666px) {
+        .widthImg{
+            padding-top: 0px;
+            width: 200px;
+        }
+        .piscinaNombre{
+            padding-top: 10px;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        .medidasPiscinas{
+            grid-column: 2/3;
+            grid-row: 1/2;
+            padding-left: 25px;
+        }
+        .textoPiscinas{
+            border: 1px solid black;
+            padding-top: 0px;
+            padding-bottom: 4px;
+            grid-column: 1/12;
+            grid-row: 2/3;
+        }
+    
+        .textoPiscinas ul{
+            grid-column: 1/5;
+        }
+
+        .imgPiscinas{
+            padding-top: 10px;
+            grid-column: 4/13;
+            grid-row: 1/2;
+        }
+    }
+    /* Fin Movil */
 
 /* FIN PISCINAS*/
 /* FIN PISCINAS*/
