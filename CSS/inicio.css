@@ -330,14 +330,22 @@ p {
 
         /* Cabecera */
 
-        #containerLinks{
-            padding: 25px;
-            font-size: medium;
+        #cabeceraInicio a{
+            padding-top: 30px;
+            font-size: small;
+        }
+        #cabeceraReservar a{
+            padding-top: 30px;
+            font-size: small;
+        }
+        #cabeceraPiscina a{
+            padding-top: 30px;
+            font-size: small;
         }
 
         #Bur h1{
             margin-top: 15px;
-            font-size: large;
+            font-size: medium;
         }
 
         .relleno{
@@ -399,7 +407,7 @@ p {
             
         }
         .piePagina #Bur h2,.piePagina #Bur h4{
-          
+
             grid-row: 2/3;
             grid-column: 1/2;
           
@@ -588,20 +596,20 @@ p {
         margin-top: 20px;
     
         grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-        grid-template-rows: auto auto auto;
+        grid-template-rows: auto auto;
         grid-row: 1/2;
     }
 
     #contenedorTxiki{
         grid-template-columns: auto auto auto auto auto  ;
-        grid-template-rows: auto auto auto;
+        grid-template-rows: auto auto;
         grid-row: 2/3;
     }
 
 
     #contenedorCubierta{
         grid-template-columns: auto auto auto auto auto  ;
-        grid-template-rows: auto auto auto;
+        grid-template-rows: auto auto;
         grid-row: 3/4;
     }
 
@@ -609,7 +617,7 @@ p {
         margin-bottom: 30px;
 
         grid-template-columns: auto auto auto auto auto  ;
-        grid-template-rows: auto auto auto;
+        grid-template-rows: auto auto ;
         grid-row: 4/5;
     }
 
@@ -670,30 +678,35 @@ p {
 
     /* Inicio Movil */
     @media only screen and (max-width: 666px) {
+
+
         .widthImg{
             padding-top: 0px;
-            width: 200px;
+            width: 100px;
+
         }
-        .piscinaNombre{
+        .piscinaNombre h2{
             padding-top: 10px;
             grid-column: 1/2;
             grid-row: 1/2;
+            font-size: large;
         }
         .medidasPiscinas{
             grid-column: 2/3;
             grid-row: 1/2;
             padding-left: 25px;
+            font-size: medium;
         }
-        .textoPiscinas{
-            border: 1px solid black;
-            padding-top: 0px;
-            padding-bottom: 4px;
-            grid-column: 1/12;
+        .textoPiscinas p, .textoPiscinas{
+            padding: 0px 0px;
+            grid-column: 1/13;
             grid-row: 2/3;
+            font-size: medium;
         }
     
         .textoPiscinas ul{
             grid-column: 1/5;
+            font-size: medium;
         }
 
         .imgPiscinas{
