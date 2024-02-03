@@ -717,7 +717,7 @@ p {
             grid-template-rows: 40% auto;
         }
         .widthImg{
-            padding-top: 0px;
+            padding-top: 25px;
             width: 100px;
         }
         .piscinaNombre h2{
