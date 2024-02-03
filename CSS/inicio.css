@@ -483,7 +483,7 @@ p {
         width: 100%;
         grid-column: 2/13;
         grid-row: 1/5;
-        margin-left: 100px;
+        margin-left: 20%;
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto;
@@ -496,7 +496,7 @@ p {
     }
 
     #reserva_horario{
-        margin-left: 100px;
+        margin-left: 20%;
         display: grid;
         width: 100%;
         grid-column: 2/11;
@@ -594,34 +594,38 @@ p {
         border: #1C4CBD;
         background-color: #1C4CBD;
     }
-    @media only screen and (max-width: 666px) {
+
+    /* Inicio de reservar movil */
+    @media only screen and (max-width: 666px )  {
      form #fomulario {
         display: grid;
         position: relative;
     }
-     div .gridReserva{
+    .gridReserva{
             display: grid;
             width: 100%;
             gap: 0px 0px;
+          
             grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto  ;
             grid-template-rows: auto auto auto auto auto auto auto auto auto auto    ;
         } 
     
-    div #datos { 
+   #datos { 
         position: relative;
         width: 100%;
-        grid-column: 2/13;
-        grid-row: 1/8;
-        margin-left: 0px;
+        grid-column: 2/13 !important ;
+        grid-row: 1/8 !important ;
+        margin-left: 0px !important ;
         display: grid;
-        grid-template-columns: auto ;
-        grid-template-rows: auto auto auto;
+        grid-template-columns: auto !important ;
+        grid-template-rows: auto auto auto !important ;
         
         background-color: white;
         border-radius: 15px;
         border: 1px solid black;
-        margin-bottom: 50px;
-        margin-top: 50px;
+        margin-bottom: 50px !important ;
+        margin-top: 50px !important ;
+        padding-top: 0px !important ;
     }
 
     #primera_linea{
@@ -631,34 +635,43 @@ p {
         margin-bottom: 0px;
         grid-template-rows: 0px;
         padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 0px !important;
+        padding-right: 0px  !important;
 
     }
     #segunda_linea{
         position: relative;
-        grid-column: 1/2;
-        grid-row: 3/5;
-    }
+        grid-row: 1/2;
+        grid-column: 2/3;
+        padding-top: 0px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+       }
     #dni{
         position: relative;
-        grid-column: 1/2;
-        grid-row: 3/4 ;
+      
         margin-bottom: 10px;
 
     }
 
     #calle{
         position: relative;
-        grid-column: 1/2;
-        grid-row: 4/5 ;
+     
     }
     #foto{
         position: relative;
         grid-column: 1/2;
         grid-row: 5/6;
-        padding-left: 20PX;
-        width: 100px;
+        padding-left: 20PX !important; 
+         padding-right: 20PX !important;
+     
 
     }
+    #foto_reserva {
+         width: 100% !important; 
+    }
+    
     #reserva_horario{
         margin-left: 0px;
         display: grid;
@@ -667,14 +680,142 @@ p {
         grid-row: 6/10;
         margin-bottom: 30px;
     }
-     #reserva_horario2 table,#reserva_horario2 td,#reserva_horario2 th{
+    #reserva_horario2 #primera th {
         width: 50px;
+    }
+     #reserva_horario2 td,tr{
+        width: 20px !important;
         padding-left: 0px;
         padding-right: 0px;
 
     }
+    #formulario{
+        width: 100%;
+    }
+    #formulario #reserva_horario input{
+        width: 40px;
+    }
+    input{
+       margin: 0px 0px 0px 0px;
+       padding: 0px 0px;
+       display:grid;
+       line-height: 10px;
+       width: 20px;
+    }
     
+    }
+
+    /* Fin reservar movil */
     
+    /* inicio de reservar Tablet */
+   
+    @media only screen and (max-width: 900px){
+        form #fomulario {
+            display: grid;
+            position: relative;
+        }
+        .gridReserva{
+                display: grid;
+                width: 100%;
+                gap: 0px 0px;
+                grid-template-columns:auto ;
+                grid-template-rows: auto auto auto auto auto auto auto     ;
+            } 
+        
+       #datos { 
+            position: relative;
+            width: 100%;
+            grid-column: 2/13 !important ;
+            grid-row: 1/8 !important ;
+            margin-left: 0px !important ;
+            display: grid;
+            grid-template-columns: auto !important ;
+            grid-template-rows: auto auto auto !important ;
+            
+            background-color: white;
+            border-radius: 15px;
+            border: 1px solid black;
+            margin-bottom: 50px !important ;
+            margin-top: 50px !important ;
+            padding-top: 0px !important ;
+        }
+    
+        #primera_linea{
+            position: relative;
+            grid-row: 1/2;
+            grid-column: 1/2;
+            margin-bottom: 0px;
+            grid-template-rows: 0px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            align-items: center;
+            padding-left: 50px ;
+            padding-right: 0px  ;
+    
+        }
+        #segunda_linea{
+            position: relative;
+            grid-row: 1/2;
+            grid-column: 2/3;
+            padding-top: 0px;
+            align-items: center;
+
+            padding-left: 50px ;
+            padding-right: 0px ;
+           }
+        #dni{
+            position: relative;
+          
+            margin-bottom: 10px;
+    
+        }
+    
+        #calle{
+            position: relative;
+         
+        }
+        #foto{
+            position: relative;
+            width: 100%;
+            grid-column: 1/3;
+            grid-row: 5/6;
+            padding-left: 150px;
+            
+        }
+         #foto_reserva {
+            width: 500px ;
+        }
+        #reserva_horario{
+            margin-left: 0px;
+            display: grid;
+            width: 100%;
+            grid-column: 2/11;
+            grid-row: 6/10;
+            margin-bottom: 30px;
+        }
+        #reserva_horario2 #primera th {
+            width: 50px;
+        }
+         #reserva_horario2 td,tr{
+            width: 20px !important;
+            padding-left: 0px;
+            padding-right: 0px;
+    
+        }
+        #formulario{
+            width: 100%;
+        }
+        #formulario #reserva_horario input{
+            width: 40px;
+        }
+        input{
+           margin: 0px 0px 0px 0px;
+           padding: 0px 0px;
+           display:grid;
+           line-height: 10px;
+           width: 20px;
+        }
+        
     }
 /* FIN RESERVAR*/
 /* FIN RESERVAR*/
