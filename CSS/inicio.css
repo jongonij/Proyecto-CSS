@@ -1,19 +1,15 @@
-
 /* APLICA A TODO */
 /* APLICA A TODO */
 /* APLICA A TODO */
-
 body{
     background-image: url(../img/fondo_prueba2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
 }
-
 * {
     box-sizing: border-box;
 }
-
 p {
     text-justify: auto;
 }
@@ -21,16 +17,12 @@ p {
 /* APLICA A TODO */
 /* APLICA A TODO */
 
-
-
 /* CABECERA*/
 /* CABECERA*/
 /* CABECERA*/
-
     .cabecera{
         box-sizing: border-box;
         position: sticky ;
-
         top: 0;
         display: grid;
         grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto  ;
@@ -38,13 +30,10 @@ p {
         margin: 0px 0px;
         background-color: white;
         z-index: 4;
-
         border-bottom:1px solid black;
-
         height: 70px;
         float:none;
     }
-
     #EscudoBurlada{
         position: relative;
         right: 0%;
@@ -61,7 +50,6 @@ p {
         margin-top: 0px;
         grid-column: 2/3;
         padding-top: 15px;
-
     }
     .cabecera a{
         float: right;
@@ -73,42 +61,29 @@ p {
         padding-left: 23px;
         padding-right: 23px;
     }
-
     #cabeceraPiscina{
         grid-column: 12/13;
         grid-row: 1/2;
         font-size: x-large;
     }
-
     #cabeceraReservar{
         grid-column: 11/12;
         grid-row: 1/2;
         font-size: x-large;
-
     }
-
     #cabeceraInicio{
         grid-column: 10/11;
         grid-row: 1/2;
         font-size: x-large;
-
     }
-
-
     /* Links cabecera */
     .cabecera a:hover{
         background-color: rgb(64, 211, 211);
         height: 94%;
     }
-
-    .cabecera a:visited {
+    .cabecera a:visited, .cabecera a:link {
         color: rgb(0, 0, 0);
     }
-
-    .cabecera a:link{
-        color: rgb(0, 0, 0);
-    }
-
     @media only screen and (max-width: 840px) {
         
     }
@@ -128,7 +103,6 @@ p {
             padding-top: 30px;
             font-size: small;
         }
-
         .cabecera a:hover{
             background-color: rgb(64, 211, 211);
             height: 99%;
@@ -144,28 +118,23 @@ p {
 /* INICIO (Ordenador, Tablet, Movil) */
 /* INICIO (Ordenador, Tablet, Movil) */
 /* INICIO (Ordenador, Tablet, Movil) */
-
     /* Inicio Ordenador */
     .gridrrelleno{
         display: grid;
         grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto  ;
         grid-row: auto auto auto auto;
-        /* gap: 10px 10px; */
     }
-
     .relleno p, .relleno ul{
         position: relative;
         margin: 10px 20px 30px 20px;
         font-size: 25px;
         text-justify: auto;
     }
-
     .relleno h1{
         text-align: center;
         font-size: 50px;
 
     }
-
     #piscinas_municipales {
         position: relative;
         text-align: center;
@@ -174,7 +143,6 @@ p {
         margin-top: 0px;
         z-index: 2;
     }
-
     #bienvenida_h1{
         position: relative;
         font-size: 120px;
@@ -186,105 +154,85 @@ p {
         padding-bottom: 0px;
         z-index: 2;
     }
-
     #bienvenida_p{
         background-color: rgb(255, 255, 255,0.25);
         margin-top: 60px;
         margin-bottom: 80px;
     }
-
     #actividades p{
         margin-left: 30px;
         margin-right: 30px;
     }
-
     table,th,td{
         border: 1px solid black;
         font-size: x-large;
         border-collapse: collapse;
-
     }
-
     td{
         text-align: center;
         width: 33%;
         background-color: rgb(125, 238, 238);
     }
-
     th{
         width: 15%;
         background-color: rgb(63, 199, 199);
     }
-
     #dia_semana{
         background-color: rgb(238, 215, 88);
     }
-
     #portero{
         background-color: rgb(182, 117, 243);
     }
-
     .relleno{
         position: relative;
         text-align: justify;
     }
-
     #bienvenida{
         grid-column: 1/12;
         grid-row: 1/2;
     }
-
     #normativa{
         grid-column: 2/6;
         grid-row: 2/3;
         margin: 30px 8%;
     }
-
     #instalaciones{
         grid-column: 6/10;
         grid-row: 2/3;
         margin: 30px 8%;
     }
-
     #actividades{
         grid-column: 2/6;
         grid-row: 3/4;
         margin: 30px 8%;
     }
-
     #horario{
         grid-column: 6/10;
         grid-row: 3/4;
         margin: 30px 8%;
         height: 100%;
     }
-
     #horario table{
         height: 88%;
     }
-
     #horario td,#horario tr{
         font-size: small;        
     }
-
     #horario tr,td,th{
         padding-top: 0px;
         padding-bottom: 0px;
     }
-
     #fotoCarru{
         grid-column: 2/11;
         grid-row: 4/5;
         margin: 30px 8%;
     }
-
     #carrufotodedentro{
         width: 100%;
         height: 300px;
         margin-bottom: 0px;
         padding-bottom: 0px;
     }
-
     #fotos_fondo{
         position: absolute;
         width: 100%;
@@ -295,7 +243,6 @@ p {
         border-radius: 15px;
         z-index: 0;
     }
-
     #foto_bienvenida{
         position: absolute;
         width: 100%;
@@ -305,7 +252,6 @@ p {
         padding-left: 0px;
         z-index: 0;
     }
-
     #texto{
         position: relative;
         z-index: 2;
@@ -317,30 +263,24 @@ p {
         .relleno p, ul{
             font-size: 15px;
         }
-        
         .relleno h1{
             font-size: 30px;
         }
-        
         #piscinas_municipales {
             font-size: 30px;
             padding-top: 0px;
             margin-top: 0px;
         }
-        
         #bienvenida_h1{
             font-size: 50px;
         }
-        
         table,th,td{
             font-size: medium;
         }
-
         #horario tr,td,th{
             padding-top: 0px;
             padding-bottom: 0px;
         }
-        
     }
     /* Fin Inicio Tablet */
 
@@ -350,44 +290,32 @@ p {
             margin-top: 15px;
             font-size: medium;
         }
-
-        .relleno{
-            position: relative;
-            text-align: justify;
-        }
         #bienvenida{
             grid-column: 1/12;
             grid-row: 1/2;
-            
         }
-        
         #normativa{
             grid-column: 2/10;
             grid-row: 2/2;
             margin: 30px 8%;
         }
-        
         #instalaciones{
             grid-column: 2/10;
             grid-row: 3/3;
             margin: 30px 8%;        
         }
-        
         #actividades{
             grid-column: 2/10;
             grid-row: 4/4;
             margin: 30px 8%;        
         }
-        
         #horario{
             position: relative;
             grid-column: 2/10;
             grid-row: 5/5;
             margin: 30px 8%;
             height: 100%;
-            
         }
-        
         #fotoCarru{
             grid-column: 2/10;
             grid-row: 6/6;
@@ -732,7 +660,6 @@ p {
         grid-row: 4/5;
     }
     .piscinaNombre{
-        position: relative;
         grid-column: 1/2;
         grid-row: 1/2;
         padding-bottom: 0px;
@@ -740,7 +667,6 @@ p {
         padding-bottom: 0px;
     }
     .medidasPiscinas{
-        position: relative;
         grid-column: 1/2;
         grid-row: 2/3;
         padding-top: 0px;
@@ -748,7 +674,6 @@ p {
         right: 0px;
     }
     .textoPiscinas{
-        position: relative;
         grid-column: 2/5;
         grid-row: 2/3;
         padding-left: 20px;
@@ -833,15 +758,13 @@ p {
         display: grid;
         grid-area: 100%;
         align-content: center;
-        padding-top: 5PX;
-        padding-bottom: 5PX;
+        padding: 5px;
         float:inline-end;
         background-color: white;
         
         grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
         grid-template-rows: 100%;
         position: absolute;
-        box-sizing: border-box;
         
         border-width: border-box;
         border-top:1px solid black;
@@ -853,25 +776,17 @@ p {
         grid-column: 1/2;
     }
     .piePagina #Bur{
-        position: relative;
-        float: left;
         padding-top: 40px;
-        padding-left: 0px;
         grid-column: 2/3;
-        right: 0px;
     }
     #mapa{
         position: absolute;
         grid-column: 3/7;
-        float: right;
-        float: left;
         top: 0px;
-
     }
     div #contactos  {
         position: absolute;
         grid-column: 7/9;
-        float: left;
         margin: 20px 5px;
         height: 40%;
         justify-content:start;
@@ -879,12 +794,9 @@ p {
     }
     div #redes{
         top: 15%;
-        width: 100%;
         position: absolute;
         grid-column: 10/11;
         margin: 0px;
-        box-sizing: border-box;
-        float: left;
     }
     a:-webkit-any-link {
         text-decoration: none;
@@ -898,24 +810,16 @@ p {
     } 
     .insta{
         width: 40px;
-        padding: 0px 0px;
-        margin: 0px 0px;
-        text-decoration: none;
     }
     .youtube{
-        text-decoration: none;
         height: 50px;
         width: 50px;
-        padding: 0px 0px;
-        margin: 0px 0px;
     }
     #redes td,tr, table{
         background-color: white;
-        margin: 0px 0px;
+        margin: 0px;
         border: 0px;
-        padding: 10px 10px;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
+        padding: 10px;
     }
     /* Ajuste mapa hasta los 1100px */
     @media only screen and (max-width: 1100px) {
@@ -933,33 +837,15 @@ p {
 
     /* Pie de pagina Tablet */
     @media only screen and (max-width: 950px) {
-       
-        #containerLinks{
-            margin-top: 0px;
-            padding-left: 8px;
-            padding-right: 8px;
-            font-size: x-large;
-        }
-        .piePagina{
-            width: 100%;
-            column-gap: 0px !important;
-        }
         .piePagina #EscudoBurlada{
             width: 80%;
             height: 80%;
-            top: 0px;
-            grid-row: 1/2;
         }
         .piePagina #Bur {
-            grid-column: 2/3;
-            width: 50px;
-            margin: 0px 0px;
-            padding: 0px 0px;
+            padding: 25px 0px;
         }
         #contactos{
-            grid-column: 6/13 !important;
-            margin-left: 0px;
-            padding-left: 0px;
+            grid-column: 4/13;
         }
         #redes{
             display: none;
