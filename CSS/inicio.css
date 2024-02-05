@@ -532,10 +532,7 @@ p {
     
     /*Reservar Tablet */
     @media only screen and (max-width: 840px){
-        form #fomulario {
-            display: grid;
-            position: relative;
-        }
+     
         .gridReserva{
                 display: grid;
                 width: 100%;
