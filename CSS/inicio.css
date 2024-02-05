@@ -1020,9 +1020,22 @@ p {
         margin-bottom: 0px;
         padding-bottom: 0px;
     }
+    /* Ajuste mapa hasta los 1100px */
+    @media only screen and (max-width: 1100px) {
+        #mapa{ 
+            width: 80%;
+            height: 80%;
+            margin: 0px ;
+            padding-top: 10px;
+        }
+        .insta, .youtube{ 
+            width: 30px;
+        }
+    }
+    /* Fin ajuste mapa hasta los 1100px */
 
     /* Pie de pagina Tablet */
-    @media only screen and (max-width: 840px) {
+    @media only screen and (max-width: 950px) {
        
         #containerLinks{
             margin-top: 0px;
@@ -1066,12 +1079,17 @@ p {
 
     /* Pie de pagina movil */
     @media only screen and (max-width: 666px) {
+
+        div.piePagina{
+            height: 90px;
+        }
         div #contactos{
+            padding-top: 20px;
             font-size: x-small;
         }
 
         #Bur h2{
-            padding-top: 30px;
+            padding-top: 40px;
             font-size:large;
         }
 
@@ -1080,9 +1098,9 @@ p {
         }
 
         .piePagina #EscudoBurlada{
-            padding-top: 40px;
-            width: 70%;
-            height: 70%;
+            padding-top: 20px;
+            width: 100%;
+            height: 200%;
         }
     }
     /* Fin Pie de pagina Movil */
