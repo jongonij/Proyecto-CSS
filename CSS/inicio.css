@@ -545,7 +545,7 @@ p {
             padding-right: 40PX;
         }
          #foto_reserva {
-            width: 500px ;
+            width: 100% ;
         }
         #reserva_horario{
             margin-left: 0px;
