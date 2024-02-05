@@ -36,7 +36,7 @@ p {
         grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto  ;
         width: 100%;
         margin: 0px 0px;
-    background-color: white;
+        background-color: white;
         z-index: 4;
 
         border-bottom:1px solid black;
@@ -52,8 +52,8 @@ p {
         padding-bottom: 1px;
     }
     .cabecera #EscudoBurlada{
-    grid-column: 1/2;
-    height:70px;
+        grid-column: 1/2;
+        height:70px;
     }
     .cabecera h1{
         position: relative;
@@ -108,6 +108,33 @@ p {
     .cabecera a:link{
         color: rgb(0, 0, 0);
     }
+
+    @media only screen and (max-width: 840px) {
+        
+    }
+    /* Fin Inicio Tablet */
+
+    /* Cabecera movil */
+    @media only screen and (max-width: 666px) {
+        #cabeceraInicio a{
+            padding-top: 30px;
+            font-size: small;
+        }
+        #cabeceraReservar a{
+            padding-top: 30px;
+            font-size: small;
+        }
+        #cabeceraPiscina a{
+            padding-top: 30px;
+            font-size: small;
+        }
+
+        .cabecera a:hover{
+            background-color: rgb(64, 211, 211);
+            height: 99%;
+        }
+    }
+    /* Fin Cabecera Movil */
 /* FIN CABECERA */
 /* FIN CABECERA */
 /* FIN CABECERA */
@@ -286,7 +313,7 @@ p {
     /* Fin Inicio Ordenador */
 
     /* Inicio Tablet */
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 840px) {
         .relleno p, ul{
             font-size: 15px;
         }
@@ -314,66 +341,11 @@ p {
             padding-bottom: 0px;
         }
         
-        #containerLinks{
-            margin-top: 0px;
-            padding-left: 8px;
-            padding-right: 8px;
-            font-size: x-large;
-        }
-        .piePagina{
-            width: 100%;
-            column-gap: 0px !important;
-       
-        }
-
-        .piePagina #EscudoBurlada{
-            width: 80%;
-            height: 80%;
-            top: 0px;
-            grid-row: 1/2;
-            
-        }
-      
-        .piePagina #Bur {
-            grid-column: 2/3;
-            width: 50px;
-            margin: 0px 0px;
-            padding: 0px 0px;
-        }
-        #contactos{
-            grid-column: 4/10 !important;
-            margin-left: 0px;
-            padding-left: 0px;
-
-        }
-        #mapa{
-           
-            display: none;
-        }
-       
-        
     }
     /* Fin Inicio Tablet */
 
     /* Inicio movil */
     @media only screen and (max-width: 666px) {
-
-
-        /* Cabecera */
-
-        #cabeceraInicio a{
-            padding-top: 30px;
-            font-size: small;
-        }
-        #cabeceraReservar a{
-            padding-top: 30px;
-            font-size: small;
-        }
-        #cabeceraPiscina a{
-            padding-top: 30px;
-            font-size: small;
-        }
-
         #Bur h1{
             margin-top: 15px;
             font-size: medium;
@@ -420,46 +392,9 @@ p {
             grid-column: 2/10;
             grid-row: 6/6;
         }
-
-        .cabecera a:hover{
-            background-color: rgb(64, 211, 211);
-            height: 99%;
-        }
-        .piePagina{
-            width: 100%;
-            column-gap: 0px !important;
-       
-        }
-
-        .piePagina #EscudoBurlada{
-            width: 80%;
-            height: 80%;
-            top: 0px;
-            grid-row: 1/2;
-            
-        }
-      
-        .piePagina #Bur {
-            grid-column: 2/3;
-            width: 50px;
-            margin: 0px 0px;
-            padding: 0px 0px;
-        }
-        #contactos{
-            grid-column: 4/10 !important;
-            margin-left: 0px;
-            padding-left: 0px;
-
-        }
-        #mapa{
-           
-            display: none;
-        }
-        #redes{
-            display:none;
-        }
-        /* Fin Inicio Movil */
     }
+        /* Fin Inicio Movil */
+   
 /* FIN INICIO */
 /* FIN INICIO */
 /* FIN INICIO */
@@ -481,7 +416,7 @@ p {
 
     #datos{ 
         width: 100%;
-        grid-column: 2/13;
+        grid-column: 2/12;
         grid-row: 1/5;
         margin-left: 20%;
         display: grid;
@@ -594,122 +529,9 @@ p {
         border: #1C4CBD;
         background-color: #1C4CBD;
     }
-
-    /* Inicio de reservar movil */
-    @media only screen and (max-width: 666px )  {
-     form #fomulario {
-        display: grid;
-        position: relative;
-    }
-    .gridReserva{
-            display: grid;
-            width: 100%;
-            gap: 0px 0px;
-          
-            grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto  ;
-            grid-template-rows: auto auto auto auto auto auto auto auto auto auto    ;
-        } 
     
-   #datos { 
-        position: relative;
-        width: 100%;
-        grid-column: 2/13 !important ;
-        grid-row: 1/8 !important ;
-        margin-left: 0px !important ;
-        display: grid;
-        grid-template-columns: auto !important ;
-        grid-template-rows: auto auto auto !important ;
-        
-        background-color: white;
-        border-radius: 15px;
-        border: 1px solid black;
-        margin-bottom: 50px !important ;
-        margin-top: 50px !important ;
-        padding-top: 0px !important ;
-    }
-
-    #primera_linea{
-        position: relative;
-        grid-row: 1/2;
-        grid-column: 1/2;
-        margin-bottom: 0px;
-        grid-template-rows: 0px;
-        padding-bottom: 0px;
-        padding-top: 0px;
-        padding-left: 0px !important;
-        padding-right: 0px  !important;
-
-    }
-    #segunda_linea{
-        position: relative;
-        grid-row: 1/2;
-        grid-column: 2/3;
-        padding-top: 0px;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-       }
-    #dni{
-        position: relative;
-      
-        margin-bottom: 10px;
-
-    }
-
-    #calle{
-        position: relative;
-     
-    }
-    #foto{
-        position: relative;
-        grid-column: 1/2;
-        grid-row: 5/6;
-        padding-left: 20PX !important; 
-         padding-right: 20PX !important;
-     
-
-    }
-    #foto_reserva {
-         width: 100% !important; 
-    }
-    
-    #reserva_horario{
-        margin-left: 0px;
-        display: grid;
-        width: 100%;
-        grid-column: 2/11;
-        grid-row: 6/10;
-        margin-bottom: 30px;
-    }
-    #reserva_horario2 #primera th {
-        width: 50px;
-    }
-     #reserva_horario2 td,tr{
-        width: 20px !important;
-        padding-left: 0px;
-        padding-right: 0px;
-
-    }
-    #formulario{
-        width: 100%;
-    }
-    #formulario #reserva_horario input{
-        width: 40px;
-    }
-    input{
-       margin: 0px 0px 0px 0px;
-       padding: 0px 0px;
-       display:grid;
-       line-height: 10px;
-       width: 20px;
-    }
-    
-    }
-
-    /* Fin reservar movil */
-    
-    /* inicio de reservar Tablet */
-   
-    @media only screen and (max-width: 900px){
+    /*Reservar Tablet */
+    @media only screen and (max-width: 840px){
         form #fomulario {
             display: grid;
             position: relative;
@@ -817,6 +639,120 @@ p {
         }
         
     }
+    /* Fin reservar tablet */
+    /* Inicio de reservar movil */
+    @media only screen and (max-width: 666px )  {
+        form #fomulario {
+            display: grid;
+            position: relative;
+        }
+
+        .gridReserva{
+            display: grid;
+            width: 100%;
+            gap: 0px 0px;
+            
+            grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto  ;
+            grid-template-rows: auto auto auto auto auto auto auto auto auto auto    ;
+        } 
+    
+        #datos { 
+            position: relative;
+            width: 100%;
+            grid-column: 2/13 !important ;
+            grid-row: 1/8 !important ;
+            margin-left: 0px !important ;
+            display: grid;
+            grid-template-columns: auto !important ;
+            grid-template-rows: auto auto auto !important ;
+            
+            background-color: white;
+            border-radius: 15px;
+            border: 1px solid black;
+            margin-bottom: 50px !important ;
+            margin-top: 50px !important ;
+            padding-top: 0px !important ;
+        }
+
+        #primera_linea{
+            position: relative;
+            grid-row: 1/2;
+            grid-column: 1/2;
+            margin-bottom: 0px;
+            grid-template-rows: 0px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            padding-left: 0px !important;
+            padding-right: 0px  !important;
+
+        }
+        #segunda_linea{
+            position: relative;
+            grid-row: 1/2;
+            grid-column: 2/3;
+            padding-top: 0px;
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            }
+        #dni{
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        #calle{
+            position: relative;
+        }
+
+        #foto{
+            position: relative;
+            grid-column: 1/2;
+            grid-row: 5/6;
+            padding-left: 20PX !important; 
+            padding-right: 20PX !important;
+        }
+
+        #foto_reserva {
+            width: 100% !important; 
+        }
+
+        #reserva_horario{
+            margin-left: 0px;
+            display: grid;
+            width: 100%;
+            grid-column: 2/11;
+            grid-row: 6/10;
+            margin-bottom: 30px;
+        }
+
+        #reserva_horario2 #primera th {
+            width: 50px;
+        }
+
+        #reserva_horario2 td,tr{
+            width: 20px !important;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        #formulario{
+            width: 100%;
+        }
+
+        #formulario #reserva_horario input{
+            width: 40px;
+        }
+
+        input{
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px;
+            display:grid;
+            line-height: 10px;
+            width: 20px;
+        }
+   
+   }
+
+   /* Fin reservar movil */
 /* FIN RESERVAR*/
 /* FIN RESERVAR*/
 /* FIN RESERVAR*/
@@ -1083,7 +1019,74 @@ p {
         padding: 10px 10px;
         margin-bottom: 0px;
         padding-bottom: 0px;
+    }
+
+    /* Pie de pagina Tablet */
+    @media only screen and (max-width: 840px) {
+       
+        #containerLinks{
+            margin-top: 0px;
+            padding-left: 8px;
+            padding-right: 8px;
+            font-size: x-large;
         }
+        .piePagina{
+            width: 100%;
+            column-gap: 0px !important;
+       
+        }
+
+        .piePagina #EscudoBurlada{
+            width: 80%;
+            height: 80%;
+            top: 0px;
+            grid-row: 1/2;
+            
+        }
+      
+        .piePagina #Bur {
+            grid-column: 2/3;
+            width: 50px;
+            margin: 0px 0px;
+            padding: 0px 0px;
+        }
+        #contactos{
+            grid-column: 6/13 !important;
+            margin-left: 0px;
+            padding-left: 0px;
+        }
+        #redes{
+            display: none;
+        }
+        #mapa{ 
+            display: none;
+        }
+    }
+    /* Fin Pie de pagina Tablet */
+
+    /* Pie de pagina movil */
+    @media only screen and (max-width: 666px) {
+        div #contactos{
+            font-size: x-small;
+        }
+
+        #Bur h2{
+            padding-top: 30px;
+            font-size:large;
+        }
+
+        #Bur h4{
+            font-size:small;
+        }
+
+        .piePagina #EscudoBurlada{
+            padding-top: 40px;
+            width: 70%;
+            height: 70%;
+        }
+    }
+    /* Fin Pie de pagina Movil */
+    
 
 /* FIN PIE PAGINA */
 /* FIN PIE PAGINA */
