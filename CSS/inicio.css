@@ -562,6 +562,7 @@ p {
         }
         #reserva_horario2 #primera th {
             width: 50px;
+            padding: 0px;
         }
          #reserva_horario2 td,tr{
             width: 20px !important;
@@ -611,7 +612,7 @@ p {
             width: 100%; 
         }
         #reserva_horario2 td,tr{
-            width: 20px;
+            width: 15px;
         }
    }
    /* Fin reservar movil */
@@ -744,7 +745,7 @@ p {
             padding-bottom: 0px ;
         }
         .textoPiscinas p, .textoPiscinas{
-            padding: 0px 0px;
+            /* padding: 0px 0px; */
             grid-column: 1/13;
             grid-row: 2/3;
             font-size: medium;
@@ -753,6 +754,7 @@ p {
         .textoPiscinas ul{
             grid-column: 1/5;
             font-size: medium;
+            padding-right: 10px;
         }
         .imgPiscinas{
             padding-top: 10px;
@@ -760,8 +762,10 @@ p {
             grid-row: 1/2;
         }
         #fotospa{
-            float: center;
+            width: max-content;
+            grid-column: 6/7;
         }
+       
     }
     /* Fin Movil */
 /* FIN PISCINAS*/
