@@ -1,10 +1,10 @@
-- requited en reservar
+------ requited en reservar
 - responsive despues 460px
 - leer texto y corregir
-- boton enviar en reservar
+------ boton enviar en reservar
 - boton reservar en piscinas
 - foto de inicio cambiat
-- inputs tamaño colapsa en tablet
+------ inputs tamaño colapsa en tablet
 
 
 
@@ -22,4 +22,5 @@
 - Todos los elementos HTML requeridos (menú, tabla y formulario) con estilo homogéneo. (-4)
 - Uso de posicionamiento de elementos HTML además del flujo normal. (-2)
 - Diseño coherente utilizando float, flex, grid o combinándolos. (-4)
+
 - Excepcionalidad positiva del trabajo. (+1)

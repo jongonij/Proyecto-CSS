@@ -336,7 +336,6 @@ p {
     .gridReserva{
         display: grid;
         width: 100%;
-        gap: 20px 20px;
         grid-template-columns:auto  ;
         grid-template-rows: auto auto auto auto auto auto auto auto auto auto    ;
     } 
@@ -387,7 +386,7 @@ p {
     }
 
     #primera_linea{
-        margin-top: 100px;
+        margin-top: 80px;
         margin-bottom: 30px;
         margin-left: 25px;
         grid-row: 2/3;
@@ -405,7 +404,7 @@ p {
     }
 
     #segunda_linea{
-        margin-top: 100px;
+        margin-top: 80px;
         margin-bottom: 30px;
         grid-row: 2/3;
         grid-column: 3/4;
@@ -421,12 +420,18 @@ p {
         font-size: x-large;
     }
     #datos input , #datos select{
-       width: 200px !important;
+       width: 180px !important;
     }
     #formulario input, #formulario select{
         width: 100%;
+    }#formulario #boton input {
+        width: 80px;
+        float: right;
     }
-
+    #formulario select{
+        text-align: center;
+        font-size: medium;
+    }
     #foto{
         display: flex;
         grid-column: 4/4;
@@ -880,6 +885,44 @@ p {
         }
     }
     /* Fin Pie de pagina Movil */
+    /* Inicio Pie de pagina Movil 2 */
+    @media only screen and (max-width: 460px) {
+       
+        #Bur h2{
+            padding-top: 20px;
+            font-size:medium;
+        }
+        #Bur h4{
+            font-size:x-small;
+        }
+        .piePagina #EscudoBurlada{
+            padding-top: 20px;
+            width: 80%;
+        }
+        div #contactos{
+            grid-column: 3/7;
+        } 
+        #foto_reserva{
+            display: none;
+        }
+        /* #nombre input{
+            grid-row: 1/2;
+            grid-column:1/2 ;
+        }
+        #apellido input{
+            grid-row: 1/2;
+            grid-column:2/3 ;
+        }
+        #dni input{
+            grid-row: 2/3;
+            grid-column:1/2 ;
+        }
+        #formulario #calle select{
+            grid-row: 2/3 !important;
+            grid-column:2/3 !important;
+        } */
+    }
+    /* Fin Pie de pagina Movil 2 */
 /* FIN PIE PAGINA */
 /* FIN PIE PAGINA */
 /* FIN PIE PAGINA */
