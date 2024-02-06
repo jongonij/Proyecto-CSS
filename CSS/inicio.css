@@ -749,6 +749,7 @@ p {
         .widthImg{
             padding-top: 25px;
             width: 100px;
+            padding-left: 7px;
         }
         .piscinaNombre h2{
             padding-top: 10px;
@@ -780,7 +781,7 @@ p {
             grid-row: 1/2;
         }
         #fotospa{
-            width: max-content;
+            width: 170px;
             grid-column: 6/7;
         }
        
