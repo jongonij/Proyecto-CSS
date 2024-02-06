@@ -108,6 +108,11 @@ p {
             height: 99%;
         }
     }
+    @media only screen and (max-width: 410px) {
+        #EscudoBurlada{
+            display: none;
+        }
+    }
     /* Fin Cabecera Movil */
 /* FIN CABECERA */
 /* FIN CABECERA */
@@ -549,7 +554,7 @@ p {
             padding-left: 40PX; 
             padding-right: 40PX;
         }
-         #foto_reserva {
+        #foto_reserva {
             width: 100% ;
         }
         #reserva_horario{
@@ -567,13 +572,14 @@ p {
             width: 20px !important;
             padding-left: 0px;
             padding-right: 0px;
-    
+        }
+        #formulario #boton input {
+            width: 80px;
+            float: right;
+            margin-right: 30px;
         }
         #formulario{
             width: 100%;
-        }
-        #formulario #reserva_horario input{
-            width: 40px;
         }
         input{
            margin: 0px 0px 0px 0px;
@@ -582,7 +588,6 @@ p {
            line-height: 10px;
            width: 20px;
         }
-        
     }
     /* Fin reservar tablet */
     /* Inicio de reservar movil */
@@ -606,9 +611,12 @@ p {
         #foto{
             padding-left: 20PX; 
             padding-right: 20PX;
+            grid-row: 1/2;
         }
         #foto_reserva {
             width: 100%; 
+            grid-row: 1/2;
+            display: none;
         }
         #reserva_horario2 td,tr{
             width: 20px;
@@ -749,7 +757,6 @@ p {
             grid-row: 2/3;
             font-size: medium;
         }
-
         .textoPiscinas ul{
             grid-column: 1/5;
             font-size: medium;
@@ -760,7 +767,7 @@ p {
             grid-row: 1/2;
         }
         #fotospa{
-            float: center;
+            /* float: center; */
         }
     }
     /* Fin Movil */
@@ -917,22 +924,11 @@ p {
         #foto_reserva{
             display: none;
         }
-        /* #nombre input{
-            grid-row: 1/2;
-            grid-column:1/2 ;
+        @media only screen and (max-width: 410px) {
+            #EscudoBurlada{
+                display: none;
+            }
         }
-        #apellido input{
-            grid-row: 1/2;
-            grid-column:2/3 ;
-        }
-        #dni input{
-            grid-row: 2/3;
-            grid-column:1/2 ;
-        }
-        #formulario #calle select{
-            grid-row: 2/3 !important;
-            grid-column:2/3 !important;
-        } */
     }
     /* Fin Pie de pagina Movil 2 */
 /* FIN PIE PAGINA */
