@@ -427,7 +427,7 @@ p {
         font-size: x-large;
     }
     #datos input , #datos select{
-       width: 180px;
+       width: 180px !important;
     }
     #formulario input, #formulario select{
         width: 100%;
