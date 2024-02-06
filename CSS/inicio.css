@@ -285,6 +285,7 @@ p {
         #horario tr,td,th{
             padding-top: 0px;
             padding-bottom: 0px;
+            height: 50px;
         }
     }
     /* Fin Inicio Tablet */
