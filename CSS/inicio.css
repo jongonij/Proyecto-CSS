@@ -614,6 +614,8 @@ p {
             padding-left: 20PX; 
             padding-right: 20PX;
             grid-row: 1/2;
+            width: 1px;
+            height: 1px;
         }
         #foto_reserva {
             width: 100%; 
