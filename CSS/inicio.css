@@ -409,7 +409,7 @@ p {
         font-size: x-large;
     }
     #datos input , #datos select{
-       width: 180px !important;
+       width: 180px;
     }
     #formulario input, #formulario select{
         width: 100%;
@@ -589,6 +589,9 @@ p {
         #reserva_horario2 td,tr{
             width: 15px;
         }
+        /* #datos input , #datos select{
+            width: 120px !important;
+        } */
    }
    /* Fin reservar movil */
 /* FIN RESERVAR*/
