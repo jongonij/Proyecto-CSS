@@ -4,3 +4,22 @@
 - boton enviar en reservar
 - boton reservar en piscinas
 - foto de inicio cambiat
+- inputs tamaño colapsa en tablet
+
+
+
+- Los ficheros deben estar ordenados en carpetas. (-1)
+- Composición estética (tamaños, espacios, simetría, proporciones,...) (-4) 
+- Homogeneidad en el diseño de las páginas. (-4)
+- 4 páginas html en los equipos de 3 y 3 páginas html en los equipos de 2 enlazadas a través de un menú incluyendo la página principal. (-4)
+- Cabecera de página común. (-3)
+- Pie de página común. (-3)
+- Una tabla con datos. (-2)
+- Un formulario con al menos tres tipos de inputs además del botón de envío. (-3)
+- Organización del código de estilo CSS. (-3)
+- Comentarios en el código CSS para identificar fácilmente como se ha realizado el diseño CSS. (-1)
+- Páginas responsive que se adapten al viewport habituales de móviles, tabletas y ordenadores. (-4)
+- Todos los elementos HTML requeridos (menú, tabla y formulario) con estilo homogéneo. (-4)
+- Uso de posicionamiento de elementos HTML además del flujo normal. (-2)
+- Diseño coherente utilizando float, flex, grid o combinándolos. (-4)
+- Excepcionalidad positiva del trabajo. (+1)
