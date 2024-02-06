@@ -1,0 +1,6 @@
+- requited en reservar
+- responsive despues 460px
+- leer texto y corregir
+- boton enviar en reservar
+- boton reservar en piscinas
+- foto de inicio cambiat
