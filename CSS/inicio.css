@@ -538,7 +538,7 @@ p {
             width: 50px;
             padding: 0px;
         }
-         #reserva_horario2 td,tr{
+        #reserva_horario2 td,tr{
             width: 20px !important;
             padding-left: 0px;
             padding-right: 0px;
@@ -551,7 +551,7 @@ p {
         #formulario{
             width: 100%;
         }
-        input{
+        input, select{
            margin: 0px 0px 0px 0px;
            padding: 0px 0px;
            display:grid;
