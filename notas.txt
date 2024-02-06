@@ -3,7 +3,7 @@
 - leer texto y corregir
 ------ boton enviar en reservar
 - boton reservar en piscinas
-- foto de inicio cambiat
+------ foto de inicio cambiat
 ------ inputs tamaño colapsa en tablet
 - quitar fotos piscinas despues de 400px +-
 
