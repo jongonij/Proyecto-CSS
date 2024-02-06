@@ -422,6 +422,8 @@ p {
 
     #primera_linea label{
         width: 100px;
+        padding-left: auto;
+        padding-right: auto;
         font-size: x-large;
     }
     #datos input , #datos select{
