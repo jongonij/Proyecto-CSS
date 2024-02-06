@@ -427,11 +427,12 @@ p {
         font-size: x-large;
     }
     #datos input , #datos select{
-       width: 180px !important;
+       width: 220px;
     }
-    #formulario input, #formulario select{
+    #formulario input[type="checkbox" i]{
         width: 100%;
-    }#formulario #boton input {
+    }
+    #formulario #boton input {
         width: 80px;
         float: right;
     }
@@ -542,8 +543,9 @@ p {
           
             margin-bottom: 10px;
     
+        }#datos input, #datos select {
+            width: 180px;
         }
-    
         #calle{
             position: relative;
          
@@ -608,10 +610,6 @@ p {
             padding-left: 0px;
             padding-right: 0px;
         }
-        #segunda_linea{
-            padding-left: 0px;
-            padding-right: 0px;
-        }
         #foto{
             padding-left: 20PX; 
             padding-right: 20PX;
@@ -630,6 +628,13 @@ p {
         } */
    }
    /* Fin reservar movil */
+   /* Inicio reservar movil 2 */
+   @media only screen and (max-width: 420px )  {
+    #datos input, #datos select {
+        width: 110px;
+    }
+   }
+   /* Fin reservar movil 2 */
 /* FIN RESERVAR*/
 /* FIN RESERVAR*/
 /* FIN RESERVAR*/
