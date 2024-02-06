@@ -830,7 +830,6 @@ p {
     div #contactos  {
         position: absolute;
         grid-column: 7/9;
-        margin: 20px 5px;
         height: 40%;
         justify-content:start;
         font-size: small;
@@ -901,12 +900,10 @@ p {
 
     /* Pie de pagina movil */
     @media only screen and (max-width: 666px) {
-
         div.piePagina{
             height: 90px;
         }
         div #contactos{
-            padding-top: 20px;
             font-size: x-small;
         }
         #Bur h2{
@@ -927,11 +924,12 @@ p {
     @media only screen and (max-width: 460px) {
        
         #Bur h2{
-            padding-top: 20px;
             font-size:medium;
+            padding-bottom: 20px
         }
         #Bur h4{
             font-size:x-small;
+            padding-bottom: 20px
         }
         .piePagina #EscudoBurlada{
             padding-top: 20px;
