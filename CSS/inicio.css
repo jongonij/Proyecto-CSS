@@ -903,7 +903,8 @@ p {
     }
     /* Fin Pie de pagina Tablet */
 
-    /* Pie de pagina movil */
+
+    /* Pie de pagina movil*/
     @media only screen and (max-width: 666px) {
         div.piePagina{
             height: 90px;
