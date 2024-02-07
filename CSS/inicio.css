@@ -833,6 +833,7 @@ p {
         height: 40%;
         justify-content:start;
         font-size: small;
+        padding-top: 40px;
     }
     div #redes{
         top: 15%;
