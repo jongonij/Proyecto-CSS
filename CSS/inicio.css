@@ -265,7 +265,7 @@ p {
 
     /* Inicio Tablet */
     @media only screen and (max-width: 840px) {
-        .relleno p,.relleno ul{
+        .relleno p, .relleno ul{
             font-size: 15px;
         }
         .relleno h1{
@@ -285,6 +285,7 @@ p {
         #horario tr,td,th{
             padding-top: 0px;
             padding-bottom: 0px;
+            height: 50px;
         }
     }
     /* Fin Inicio Tablet */
@@ -427,11 +428,12 @@ p {
         font-size: x-large;
     }
     #datos input , #datos select{
-       width: 180px !important;
+       width: 220px;
     }
-    #formulario input, #formulario select{
+    #formulario input[type="checkbox" i]{
         width: 100%;
-    }#formulario #boton input {
+    }
+    #formulario #boton input {
         width: 80px;
         float: right;
     }
@@ -542,8 +544,9 @@ p {
           
             margin-bottom: 10px;
     
+        }#datos input, #datos select {
+            width: 180px;
         }
-    
         #calle{
             position: relative;
          
@@ -608,14 +611,12 @@ p {
             padding-left: 0px;
             padding-right: 0px;
         }
-        #segunda_linea{
-            padding-left: 0px;
-            padding-right: 0px;
-        }
         #foto{
             padding-left: 20PX; 
             padding-right: 20PX;
             grid-row: 1/2;
+            width: 1px;
+            height: 1px;
         }
         #foto_reserva {
             width: 100%; 
@@ -630,6 +631,13 @@ p {
         } */
    }
    /* Fin reservar movil */
+   /* Inicio reservar movil 2 */
+   @media only screen and (max-width: 420px )  {
+    #datos input, #datos select {
+        width: 110px;
+    }
+   }
+   /* Fin reservar movil 2 */
 /* FIN RESERVAR*/
 /* FIN RESERVAR*/
 /* FIN RESERVAR*/
@@ -744,6 +752,7 @@ p {
         .widthImg{
             padding-top: 25px;
             width: 100px;
+            padding-left: 7px;
         }
         .piscinaNombre h2{
             padding-top: 10px;
@@ -775,7 +784,7 @@ p {
             grid-row: 1/2;
         }
         #fotospa{
-            width: max-content;
+            width: 170px;
             grid-column: 6/7;
         }
        
@@ -821,7 +830,6 @@ p {
     div #contactos  {
         position: absolute;
         grid-column: 7/9;
-        margin: 20px 5px;
         height: 40%;
         justify-content:start;
         font-size: small;
@@ -893,12 +901,10 @@ p {
 
     /* Pie de pagina movil */
     @media only screen and (max-width: 666px) {
-
         div.piePagina{
             height: 90px;
         }
         div #contactos{
-            padding-top: 20px;
             font-size: x-small;
         }
         #Bur h2{
@@ -919,11 +925,12 @@ p {
     @media only screen and (max-width: 460px) {
        
         #Bur h2{
-            padding-top: 20px;
             font-size:medium;
+            padding-bottom: 20px
         }
         #Bur h4{
             font-size:x-small;
+            padding-bottom: 20px
         }
         .piePagina #EscudoBurlada{
             padding-top: 20px;
