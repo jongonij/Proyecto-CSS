@@ -265,7 +265,7 @@ p {
 
     /* Inicio Tablet */
     @media only screen and (max-width: 840px) {
-        .relleno p, ul{
+        .relleno p,.relleno ul{
             font-size: 15px;
         }
         .relleno h1{
@@ -831,6 +831,7 @@ p {
         position: absolute;
         grid-column: 10/11;
         margin: 0px;
+        padding-top: 40px;
     }
     a:-webkit-any-link {
         text-decoration: none;
